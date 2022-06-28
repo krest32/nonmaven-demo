@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Application nodePath="">
+    <application_number nodeType="general">application_number</application_number>
+    <calltype nodeType="general">calltype</calltype>
+    <callround nodeType="general">callround</callround>
+    <General nodeType="child" nodePath="//General">
+    	<dealer_id>business_partner_id</dealer_id>
+    	<vehicle_type_cde>vehicle_type_cde</vehicle_type_cde>
+    </General>
+    <Assets_Finacial_Term nodeType="child" nodePath="//Assets_Finacial_Term">
+        <asset_make_cde>asset_make_cde</asset_make_cde>
+        <condition>condition</condition>
+        <usage>usage</usage>
+        <total_amt_payable>total_amt_payable</total_amt_payable>
+        <asset_model_cde>asset_model_cde</asset_model_cde>
+		<asset_subtype>asset_subtype</asset_subtype>
+        <new_price>new_price</new_price>
+        <amount_financed>amount_financed</amount_financed>
+        <subsidy_rate>subsidy_rate</subsidy_rate>
+        <lease_term_in_month>lease_term_in_month</lease_term_in_month>
+        <balloon_percentage>balloon_percentage</balloon_percentage>
+        <contract_interest_rate>interest_rate</contract_interest_rate>
+		<asset_vehicle_cost_amount>asset_cost</asset_vehicle_cost_amount>
+		<down_payment_percentage>security_deposit_pct</down_payment_percentage>
+    </Assets_Finacial_Term>
+	<Applicant_Exposure nodeType="object" nodePath="//Applicant_Exposure">
+		<total_exposure>total_exposure</total_exposure>
+	</Applicant_Exposure>
+    <Applicant_Borrower_I nodeType="object" nodePath="//Applicant_Individual">
+		<id_card_typ>i_id_card_typ</id_card_typ>
+		<id_card_nbr>i_id_card_nbr</id_card_nbr>
+		<first_thi_nme>i_first_thi_nme</first_thi_nme>
+		<citizenship_dsc>i_citizenship_dsc</citizenship_dsc>
+		<sex>i_sex</sex>
+		<isnew>i_isnew</isnew>
+		<pre_decline_flag>i_pre_decline_flag</pre_decline_flag>
+		<verified_income>i_verified_income</verified_income>
+		<pboc_report_status>i_pboc_report_status</pboc_report_status>
+		<borrower_score nodeType="general">borrower_score</borrower_score>
+		<Address nodeType="list" nodePath="Address">
+		    <address_type_cde>address_type_cde</address_type_cde>
+			<city>city</city>
+			<state_cde>state_cde</state_cde>
+			<time_in_year>time_in_year</time_in_year>
+			<time_in_month>time_in_month</time_in_month>
+			<property_type_cde>property_type_cde</property_type_cde>
+			<PhoneFax nodeType="list" nodePath="Phone_Fax">
+			   <phone_type_cde>phone_type_cde</phone_type_cde>
+			   <country_code>country_code</country_code>
+			   <area_code>area_code</area_code>
+			   <phone_number>phone_number</phone_number>
+			</PhoneFax>
+		</Address>
+		<Employment nodeType="list" nodePath="Employment" ifNodeName="established_since">
+		    <employer_type>employer_type</employer_type>
+			<name>name</name>
+			<city>city</city>
+			<province>province</province>
+			<years>years</years>
+		</Employment>
+		<PBOC_I nodeType="parent" nodePath="Applicant_Individual">
+			<PBOC_I_PDF_FILE nodeType="virtual" nodePath="PBOC_I_PDF_FILE">
+				<ReportNo>REPORTNO</ReportNo>
+				<QueryTime>QueryTime</QueryTime>
+			</PBOC_I_PDF_FILE>
+			<Identity nodeType="object" nodePath="PBOC_I_Basic">
+				<CustName>CustName</CustName>
+			    <Birthday>BirthDay</Birthday>
+				<MarrSign>MarrSign</MarrSign>
+				<EducSign>EducSign</EducSign>
+				<DegreeSign>DegreeSign</DegreeSign>
+				<OfficeTel>OfficeTel</OfficeTel>
+				<Mobile>Mobile</Mobile>
+				<HouseTel>HouseTel</HouseTel>
+			</Identity>
+			<Detail_Inhabitancy nodeType="db" funcName="queryPBOCInhabitancy">
+				<!-- 
+			    <InhabAddr>InhabAddr</InhabAddr>
+				<Status>Status</Status>
+				<DataDate>DataDate</DataDate>
+				 -->
+			</Detail_Inhabitancy>
+			<Detail_Occuption nodeType="db" funcName="queryPBOCOccuption">
+				<!-- 
+			    <WorkUnit>WorkUnit</WorkUnit>
+				<CorpAddr>CorpAddr</CorpAddr>
+				<DataDate>DataDate</DataDate>
+				 -->
+			</Detail_Occuption>
+			<Summary_Loan nodeType="object" nodePath="PBOC_I_Summary">
+			    <LoanCorpAgenNum>LoanCorpAgenNum</LoanCorpAgenNum>
+				<LoanAgenNum>LoanAgenNum</LoanAgenNum>
+				<LoanNum>LoanNum</LoanNum>
+				<LoanContAmt>LoanContAmt</LoanContAmt>
+				<LoanBal>LoanBal</LoanBal>
+				<AverPayment>AverPayment</AverPayment>
+			</Summary_Loan>
+			<Summary_ICR nodeType="object" nodePath="PBOC_I_Summary">
+			    <IssuCorpAccNum>IssuCorpAccNum</IssuCorpAccNum>
+				<IssuAgenNum>IssuAgenNum</IssuAgenNum>
+				<AccountNum>AccountNum</AccountNum>
+				<CreditAmt>CreditAmt</CreditAmt>
+				<MaxCredAmt>MaxCredAmt</MaxCredAmt>
+				<MinCredAmt>MinCredAmt</MinCredAmt>
+				<UsedAmt>UsedAmt</UsedAmt>
+				<AverUsedAmt>AverUsedAmt</AverUsedAmt>
+			</Summary_ICR>
+			<Summary_QCR nodeType="object" nodePath="PBOC_I_Summary">
+			    <QCRIIssuCorpAccNum>QCRIIssuCorpAccNum</QCRIIssuCorpAccNum>
+				<QCRIIssuAgenNum>QCRIIssuAgenNum</QCRIIssuAgenNum>
+				<QCRIAccountNum>QCRIAccountNum</QCRIAccountNum>
+				<QCRICreditAmt>QCRICreditAmt</QCRICreditAmt>
+				<QCRIMaxCredAmt>QCRIMaxCredAmt</QCRIMaxCredAmt>
+				<QCRIMinCredAmt>QCRIMinCredAmt</QCRIMinCredAmt>
+				<OdrawBal>OdrawBal</OdrawBal>
+				<AverOdrawBal>AverOdrawBal</AverOdrawBal>
+			</Summary_QCR>
+			<Summary_Breach nodeType="object" nodePath="PBOC_I_Summary">
+			    <BadLoanNum>BadLoanNum</BadLoanNum>
+				<BadLoanBal>BadLoanBal</BadLoanBal>
+				<AssDispNum>AssDispNum</AssDispNum>
+				<AssDispBal>AssDispBal</AssDispBal>
+				<GuarPayNum>GuarPayNum</GuarPayNum>
+				<GuarPayBal>GuarPayBal</GuarPayBal>
+			</Summary_Breach>
+			<Summary_Odue nodeType="object" nodePath="PBOC_I_Summary">
+			    <LoanOdueNum>LoanOdueNum</LoanOdueNum>
+				<LoanOdueMons>LoanOdueMons</LoanOdueMons>
+				<LoanMaxOdueAmt>LoanMaxOdueAmt</LoanMaxOdueAmt>
+				<LoanMaxOdueMons>LoanMaxOdueMons</LoanMaxOdueMons>
+				<ICROdueNum>ICROdueNum</ICROdueNum>
+				<ICROdueMons>ICROdueMons</ICROdueMons>
+				<ICRMaxOdueAmt>ICRMaxOdueAmt</ICRMaxOdueAmt>
+				<ICRMaxOdueMons>ICRMaxOdueMons</ICRMaxOdueMons>
+				<QCROdrawNum>QCROdrawNum</QCROdrawNum>
+				<QCROdrawMons>QCROdrawMons</QCROdrawMons>
+				<QCRMaxOdrawBal>QCRMaxOdrawBal</QCRMaxOdrawBal>
+				<QCRMaxOdrawMons>QCRMaxOdrawMons</QCRMaxOdrawMons>
+			</Summary_Odue>
+			<Summary_Credit nodeType="object" nodePath="PBOC_I_Summary">
+			    <FirLoanBeginMon method="adjustDateFormat">FirLoanBeginMon</FirLoanBeginMon>
+				<FirICRBeginMon method="adjustDateFormat">FirICRBeginMon</FirICRBeginMon>
+				<FirQCRBeginMon method="adjustDateFormat">FirQCRBeginMon</FirQCRBeginMon>
+				<HouLoanNum>HouLoanNum</HouLoanNum>
+				<OthLoanNum>OthLoanNum</OthLoanNum>
+				<ICRAccNum>ICRAccNum</ICRAccNum>
+				<QCRAccNum>QCRAccNum</QCRAccNum>
+				<SelfDeclNum>SelfDeclNum</SelfDeclNum>
+				<ObjLabelNum>ObjLabelNum</ObjLabelNum>
+			</Summary_Credit>
+			<Summary_Guaranty nodeType="object" nodePath="PBOC_I_Summary">
+			    <GuarNum>GuarNum</GuarNum>
+				<GuarAmt>GuarAmt</GuarAmt>
+				<GuarBal>GuarBal</GuarBal>
+			</Summary_Guaranty>
+			<Summary_QueryHis nodeType="object" nodePath="PBOC_I_Summary">
+			    <PostLoanQueryNum>PostLoanQueryNum</PostLoanQueryNum>
+				<MNCQueryNum>MNCQueryNum</MNCQueryNum>
+				<CLQueryOrgs>CLQueryOrgs</CLQueryOrgs>
+				<CCRQueryOrgs>CCRQueryOrgs</CCRQueryOrgs>
+				<CLQueryNum>CLQueryNum</CLQueryNum>
+				<CCRQueryNum>CCRQueryNum</CCRQueryNum>
+				<PQueryNum>PQueryNum</PQueryNum>
+				<GCQQueryNum>GCQQueryNum</GCQQueryNum>
+			</Summary_QueryHis>
+			<Detail_Loan nodeType="list" nodePath="PBOC_I_LoanDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<LoanType method="adjustLoanType">LoanType</LoanType>
+				<LoanAmt>LoanAmt</LoanAmt>
+				<LoanBal>LoanBal</LoanBal>
+				<AccState>AccState</AccState>
+				<ClassResu>ClassResu</ClassResu>
+				<CurrOdueNum>CurrOdueNum</CurrOdueNum>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<CaliBal>CaliBal</CaliBal>
+			</Detail_Loan>
+			<Detail_ICR nodeType="list" nodePath="PBOC_I_CreditCardDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<CredAmt>CredAmt</CredAmt>
+				<UsedAmt>UsedAmt</UsedAmt>
+				<ShareCredAmt>ShareCredAmt</ShareCredAmt>
+				<CurrOdueNum>CurrOdueNum</CurrOdueNum>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<AccState>AccState</AccState>
+			</Detail_ICR>
+			<Detail_QCR nodeType="list" nodePath="PBOC_I_QuasiCreditCardDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<CredAmt>CredAmt</CredAmt>
+				<OdrawBal>OdrawBal</OdrawBal>
+				<MaxOdrawBal>MaxOdrawBal</MaxOdrawBal>
+				<AccState>AccState</AccState>
+			</Detail_QCR>
+			<Detail_Guarantee nodeType="list" nodePath="PBOC_I_ExternalGuarantees">
+				<KeyNo>KeyNo</KeyNo>
+			    <LoanBeginDate method="adjustDateFormat">LoanBeginDate</LoanBeginDate>
+				<GuarAmt>GuarAmt</GuarAmt>
+				<LoanCapiBal>LoanCapiBal</LoanCapiBal>
+				<LoanClassResu>LoanClassResu</LoanClassResu>
+			</Detail_Guarantee>
+			<Detail_HousingFund nodeType="list" nodePath="PBOC_I_HousingFund">
+			    <BeginDate>BeginDate</BeginDate>
+				<BeginMonth>BeginMonth</BeginMonth>
+				<EndMonth>EndMonth</EndMonth>
+				<MonPayAmt>MonPayAmt</MonPayAmt>
+				<IndiPayPer>IndiPayPer</IndiPayPer>
+				<CompPayPer>CompPayPer</CompPayPer>
+				<PayUnit>PayUnit</PayUnit>
+				<PayAddr>PayAddr</PayAddr>
+				<Status>Status</Status>
+			</Detail_HousingFund>
+			<Detail_PensionDeposit nodeType="list" nodePath="PBOC_I_PensionInsuranceDeposit">
+			    <BeginDate>BeginDate</BeginDate>
+				<DataDate>DataDate</DataDate>
+				<Status>Status</Status>
+			</Detail_PensionDeposit>
+			<Detail_PensionExtend nodeType="list" nodePath="PBOC_I_PensionInsuranceExtend">
+			    <ProvAddr>ProvAddr</ProvAddr>
+				<CurrProvAmt>CurrProvAmt</CurrProvAmt>
+				<DataDate>DataDate</DataDate>				
+			</Detail_PensionExtend>
+			<Detail_AssetManage nodeType="list" nodePath="PBOC_I_AssetManage">
+			    <AMCName>AMCName</AMCName>
+				<DebtAmt>DebtAmt</DebtAmt>
+				<Balance>Balance</Balance>
+				<LastPayDate>LastPayDate</LastPayDate>
+			</Detail_AssetManage>
+			<Detail_Compensatory nodeType="list" nodePath="PBOC_I_GuarantorCompensatory">
+			    <RepayOrgan>RepayOrgan</RepayOrgan>
+				<Balance>Balance</Balance>
+				<LastRepayDate>LastRepayDate</LastRepayDate>
+			</Detail_Compensatory>
+			<Detail_TelePay nodeType="list" nodePath="PBOC_I_TelecomPayment">
+				<KeyNo>KeyNo</KeyNo>
+				<BeginDate>BeginDate</BeginDate>
+				<TeleProvider>TeleProvider</TeleProvider>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<Status>Status</Status>
+			</Detail_TelePay>
+			<Detail_TaxDefault nodeType="list" nodePath="PBOC_I_TaxDefault">
+			    <TaxOrgan>TaxOrgan</TaxOrgan>
+				<TaxtAmt>TaxtAmt</TaxtAmt>
+				<DataDate>DataDate</DataDate>
+			</Detail_TaxDefault>
+			<Detail_CivilJudgment nodeType="list" nodePath="PBOC_I_CiviJudgment">
+			    <CourtName>CourtName</CourtName>
+				<JudgeResu>JudgeResu</JudgeResu>
+				<EffeDate>EffeDate</EffeDate>
+			</Detail_CivilJudgment>
+			<Detail_Penalty nodeType="list" nodePath="PBOC_I_AdministrativePenalty">
+			    <SancOrgan>SancOrgan</SancOrgan>
+				<SancAmt>SancAmt</SancAmt>
+				<EffeDate>EffeDate</EffeDate>
+				<EndDate>EndDate</EndDate>
+			</Detail_Penalty>
+			<Detail_Enforce nodeType="list" nodePath="PBOC_I_Enforce">
+			    <CourtName>CourtName</CourtName>
+				<Status>Status</Status>
+				<EndDate>EndDate</EndDate>				
+			</Detail_Enforce>
+			<Detail_Qualification nodeType="list" nodePath="PBOC_I_Qualification">
+			    <CertName>CertName</CertName>
+				<CertLevel>CertLevel</CertLevel>
+				<IssueOrgan>IssueOrgan</IssueOrgan>
+				<BeginDate>BeginDate</BeginDate>
+				<EndDate>EndDate</EndDate>
+				<RevokeDate>RevokeDate</RevokeDate>
+			</Detail_Qualification>
+			<Detail_VehicleTransMortgage nodeType="list" nodePath="PBOC_I_VehicleTransMortgage">
+			    <VehiLice>VehiLice</VehiLice>
+				<EngineNo>EngineNo</EngineNo>
+				<VehiBrand>VehiBrand</VehiBrand>
+				<VehiType>VehiType</VehiType>
+				<Status>Status</Status>
+				<DataDate>DataDate</DataDate>
+			</Detail_VehicleTransMortgage>
+			<Detail_SpecialTrade nodeType="list" nodePath="PBOC_I_SpecialTrade">
+				<KeyNo>KeyNo</KeyNo>
+			    <TradeType method="adjustTradeType">TradeType</TradeType>
+				<Amount>Amount</Amount>
+				<DataDate>DataDate</DataDate>
+			</Detail_SpecialTrade>
+			<Detail_Declare nodeType="db" funcName="queryPBOCDeclare">
+				<!-- 
+			    <Declaration>Declaration</Declaration>
+				<AddDate>AddDate</AddDate>
+				 -->
+			</Detail_Declare>
+			<Detail_Objectionlabel nodeType="db" funcName="queryPBOCObjectionlabel">
+				<!-- 
+			    <ObjLabel>ObjLabel</ObjLabel>
+				<AddDate>AddDate</AddDate>
+				 -->
+			</Detail_Objectionlabel>
+			<Detail_Query nodeType="list" nodePath="PBOC_I_QueryDetail">
+				<KeyNo>KeyNo</KeyNo>
+				<Querier>Querier</Querier>
+				<QueryDate>QueryDate</QueryDate>
+				<QueryReas>QueryReas</QueryReas>
+			</Detail_Query>
+		</PBOC_I>
+    </Applicant_Borrower_I>
+    <Applicant_Co_Borrower_I nodeType="object" nodePath="//Applicant_Co_Borrower_I">
+        <id_card_typ>cobi_id_card_typ</id_card_typ>
+		<id_card_nbr>cobi_id_card_nbr</id_card_nbr>
+		<first_thi_nme>cobi_first_thi_nme</first_thi_nme>
+		<citizenship_dsc>cobi_citizenship_dsc</citizenship_dsc>
+		<pre_decline_flag>cobi_pre_decline_flag</pre_decline_flag>
+		<verified_income>cobi_verified_income</verified_income>
+		<pboc_report_status>cobi_pboc_report_status</pboc_report_status>
+		<co_borrower_score nodeType="general">co_borrower_score</co_borrower_score>
+		<Address nodeType="list" nodePath="Address">
+		    <address_type_cde>address_type_cde</address_type_cde>
+			<city>city</city>
+			<state_cde>state_cde</state_cde>
+			<time_in_year>time_in_year</time_in_year>
+			<time_in_month>time_in_month</time_in_month>
+			<property_type_cde>property_type_cde</property_type_cde>
+			<PhoneFax nodeType="list" nodePath="Phone_Fax">
+			   <phone_type_cde>phone_type_cde</phone_type_cde>
+			   <country_code>country_code</country_code>
+			   <area_code>area_code</area_code>
+			   <phone_number>phone_number</phone_number>
+			</PhoneFax>
+		</Address>
+		<Employment nodeType="list" nodePath="Employment" ifNodeName="established_since">
+		    <employer_type>employer_type</employer_type>
+			<name>name</name>
+			<city>city</city>
+			<province>province</province>
+			<years>years</years>
+		</Employment>
+		<PBOC_I nodeType="parent" nodePath="Applicant_Co_Borrower_I">
+			<PBOC_I_PDF_FILE nodeType="virtual" nodePath="PBOC_I_PDF_FILE">
+				<ReportNo>REPORTNO</ReportNo>
+				<QueryTime>QueryTime</QueryTime>
+			</PBOC_I_PDF_FILE>
+			<Identity nodeType="object" nodePath="PBOC_I_Basic">
+				<CustName>CustName</CustName>
+			    <BirthDay>BirthDay</BirthDay>
+				<MarrSign>MarrSign</MarrSign>
+				<EducSign>EducSign</EducSign>
+				<DegreeSign>DegreeSign</DegreeSign>
+				<OfficeTel>OfficeTel</OfficeTel>
+				<Mobile>Mobile</Mobile>
+				<HouseTel>HouseTel</HouseTel>
+			</Identity>
+			<Detail_Inhabitancy nodeType="db" funcName="queryPBOCInhabitancy">
+				<!-- 
+			    <InhabAddr>InhabAddr</InhabAddr>
+				<Status>Status</Status>
+				<DataDate>DataDate</DataDate>
+				 -->
+			</Detail_Inhabitancy>
+			<Detail_Occuption nodeType="db" funcName="queryPBOCOccuption">
+				<!-- 
+			    <WorkUnit>WorkUnit</WorkUnit>
+				<CorpAddr>CorpAddr</CorpAddr>
+				<DataDate>DataDate</DataDate>
+				 -->
+			</Detail_Occuption>
+			<Summary_Loan nodeType="object" nodePath="PBOC_I_Summary">
+			    <LoanCorpAgenNum>LoanCorpAgenNum</LoanCorpAgenNum>
+				<LoanAgenNum>LoanAgenNum</LoanAgenNum>
+				<LoanNum>LoanNum</LoanNum>
+				<LoanContAmt>LoanContAmt</LoanContAmt>
+				<LoanBal>LoanBal</LoanBal>
+				<AverPayment>AverPayment</AverPayment>
+			</Summary_Loan>
+			<Summary_ICR nodeType="object" nodePath="PBOC_I_Summary">
+			    <IssuCorpAccNum>IssuCorpAccNum</IssuCorpAccNum>
+				<IssuAgenNum>IssuAgenNum</IssuAgenNum>
+				<AccountNum>AccountNum</AccountNum>
+				<CreditAmt>CreditAmt</CreditAmt>
+				<MaxCredAmt>MaxCredAmt</MaxCredAmt>
+				<MinCredAmt>MinCredAmt</MinCredAmt>
+				<UsedAmt>UsedAmt</UsedAmt>
+				<AverUsedAmt>AverUsedAmt</AverUsedAmt>
+			</Summary_ICR>
+			<Summary_QCR nodeType="object" nodePath="PBOC_I_Summary">
+			    <QCRIIssuCorpAccNum>QCRIIssuCorpAccNum</QCRIIssuCorpAccNum>
+				<QCRIIssuAgenNum>QCRIIssuAgenNum</QCRIIssuAgenNum>
+				<QCRIAccountNum>QCRIAccountNum</QCRIAccountNum>
+				<QCRICreditAmt>QCRICreditAmt</QCRICreditAmt>
+				<QCRIMaxCredAmt>QCRIMaxCredAmt</QCRIMaxCredAmt>
+				<QCRIMinCredAmt>QCRIMinCredAmt</QCRIMinCredAmt>
+				<OdrawBal>OdrawBal</OdrawBal>
+				<AverOdrawBal>AverOdrawBal</AverOdrawBal>
+			</Summary_QCR>
+			<Summary_Breach nodeType="object" nodePath="PBOC_I_Summary">
+			    <BadLoanNum>BadLoanNum</BadLoanNum>
+				<BadLoanBal>BadLoanBal</BadLoanBal>
+				<AssDispNum>AssDispNum</AssDispNum>
+				<AssDispBal>AssDispBal</AssDispBal>
+				<GuarPayNum>GuarPayNum</GuarPayNum>
+				<GuarPayBal>GuarPayBal</GuarPayBal>
+			</Summary_Breach>
+			<Summary_Odue nodeType="object" nodePath="PBOC_I_Summary">
+			    <LoanOdueNum>LoanOdueNum</LoanOdueNum>
+				<LoanOdueMons>LoanOdueMons</LoanOdueMons>
+				<LoanMaxOdueAmt>LoanMaxOdueAmt</LoanMaxOdueAmt>
+				<LoanMaxOdueMons>LoanMaxOdueMons</LoanMaxOdueMons>
+				<ICROdueNum>ICROdueNum</ICROdueNum>
+				<ICROdueMons>ICROdueMons</ICROdueMons>
+				<ICRMaxOdueAmt>ICRMaxOdueAmt</ICRMaxOdueAmt>
+				<ICRMaxOdueMons>ICRMaxOdueMons</ICRMaxOdueMons>
+				<QCROdrawNum>QCROdrawNum</QCROdrawNum>
+				<QCROdrawMons>QCROdrawMons</QCROdrawMons>
+				<QCRMaxOdrawBal>QCRMaxOdrawBal</QCRMaxOdrawBal>
+				<QCRMaxOdrawMons>QCRMaxOdrawMons</QCRMaxOdrawMons>
+			</Summary_Odue>
+			<Summary_Credit nodeType="object" nodePath="PBOC_I_Summary">
+			    <FirLoanBeginMon method="adjustDateFormat">FirLoanBeginMon</FirLoanBeginMon>
+				<FirICRBeginMon method="adjustDateFormat">FirICRBeginMon</FirICRBeginMon>
+				<FirQCRBeginMon method="adjustDateFormat">FirQCRBeginMon</FirQCRBeginMon>
+				<HouLoanNum>HouLoanNum</HouLoanNum>
+				<OthLoanNum>OthLoanNum</OthLoanNum>
+				<ICRAccNum>ICRAccNum</ICRAccNum>
+				<QCRAccNum>QCRAccNum</QCRAccNum>
+				<SelfDeclNum>SelfDeclNum</SelfDeclNum>
+				<ObjLabelNum>ObjLabelNum</ObjLabelNum>
+			</Summary_Credit>
+			<Summary_Guaranty nodeType="object" nodePath="PBOC_I_Summary">
+			    <GuarNum>GuarNum</GuarNum>
+				<GuarAmt>GuarAmt</GuarAmt>
+				<GuarBal>GuarBal</GuarBal>
+			</Summary_Guaranty>
+			<Summary_QueryHis nodeType="object" nodePath="PBOC_I_Summary">
+			    <PostLoanQueryNum>PostLoanQueryNum</PostLoanQueryNum>
+				<MNCQueryNum>MNCQueryNum</MNCQueryNum>
+				<CLQueryOrgs>CLQueryOrgs</CLQueryOrgs>
+				<CCRQueryOrgs>CCRQueryOrgs</CCRQueryOrgs>
+				<CLQueryNum>CLQueryNum</CLQueryNum>
+				<CCRQueryNum>CCRQueryNum</CCRQueryNum>
+				<PQueryNum>PQueryNum</PQueryNum>
+				<GCQQueryNum>GCQQueryNum</GCQQueryNum>
+			</Summary_QueryHis>
+			<Detail_Loan nodeType="list" nodePath="PBOC_I_LoanDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<LoanType method="adjustLoanType">LoanType</LoanType>
+				<LoanAmt>LoanAmt</LoanAmt>
+				<LoanBal>LoanBal</LoanBal>
+				<AccState>AccState</AccState>
+				<ClassResu>ClassResu</ClassResu>
+				<CurrOdueNum>CurrOdueNum</CurrOdueNum>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<CaliBal>CaliBal</CaliBal>
+			</Detail_Loan>
+			<Detail_ICR nodeType="list" nodePath="PBOC_I_CreditCardDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<CredAmt>CredAmt</CredAmt>
+				<UsedAmt>UsedAmt</UsedAmt>
+				<ShareCredAmt>ShareCredAmt</ShareCredAmt>
+				<CurrOdueNum>CurrOdueNum</CurrOdueNum>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<AccState>AccState</AccState>
+			</Detail_ICR>
+			<Detail_QCR nodeType="list" nodePath="PBOC_I_QuasiCreditCardDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<CredAmt>CredAmt</CredAmt>
+				<OdrawBal>OdrawBal</OdrawBal>
+				<MaxOdrawBal>MaxOdrawBal</MaxOdrawBal>
+				<AccState>AccState</AccState>
+			</Detail_QCR>
+			<Detail_Guarantee nodeType="list" nodePath="PBOC_I_ExternalGuarantees">
+				<KeyNo>KeyNo</KeyNo>
+			    <LoanBeginDate method="adjustDateFormat">LoanBeginDate</LoanBeginDate>
+				<GuarAmt>GuarAmt</GuarAmt>
+				<LoanCapiBal>LoanCapiBal</LoanCapiBal>
+				<LoanClassResu>LoanClassResu</LoanClassResu>
+			</Detail_Guarantee>
+			<Detail_HousingFund nodeType="list" nodePath="PBOC_I_HousingFund">
+			    <BeginDate>BeginDate</BeginDate>
+				<BeginMonth>BeginMonth</BeginMonth>
+				<EndMonth>EndMonth</EndMonth>
+				<MonPayAmt>MonPayAmt</MonPayAmt>
+				<IndiPayPer>IndiPayPer</IndiPayPer>
+				<CompPayPer>CompPayPer</CompPayPer>
+				<PayUnit>PayUnit</PayUnit>
+				<PayAddr>PayAddr</PayAddr>
+				<Status>Status</Status>
+			</Detail_HousingFund>
+			<Detail_PensionDeposit nodeType="list" nodePath="PBOC_I_PensionInsuranceDeposit">
+			    <BeginDate>BeginDate</BeginDate>
+				<DataDate>DataDate</DataDate>
+				<Status>Status</Status>
+			</Detail_PensionDeposit>
+			<Detail_PensionExtend nodeType="list" nodePath="PBOC_I_PensionInsuranceExtend">
+			    <ProvAddr>ProvAddr</ProvAddr>
+				<CurrProvAmt>CurrProvAmt</CurrProvAmt>
+				<DataDate>DataDate</DataDate>				
+			</Detail_PensionExtend>
+			<Detail_AssetManage nodeType="list" nodePath="PBOC_I_AssetManage">
+			    <AMCName>AMCName</AMCName>
+				<DebtAmt>DebtAmt</DebtAmt>
+				<Balance>Balance</Balance>
+				<LastPayDate>LastPayDate</LastPayDate>
+			</Detail_AssetManage>
+			<Detail_Compensatory nodeType="list" nodePath="PBOC_I_GuarantorCompensatory">
+			    <RepayOrgan>RepayOrgan</RepayOrgan>
+				<Balance>Balance</Balance>
+				<LastRepayDate>LastRepayDate</LastRepayDate>
+			</Detail_Compensatory>
+			<Detail_TelePay nodeType="list" nodePath="PBOC_I_TelecomPayment">
+				<KeyNo>KeyNo</KeyNo>
+				<BeginDate>BeginDate</BeginDate>
+				<TeleProvider>TeleProvider</TeleProvider>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<Status>Status</Status>
+			</Detail_TelePay>
+			<Detail_TaxDefault nodeType="list" nodePath="PBOC_I_TaxDefault">
+			    <TaxOrgan>TaxOrgan</TaxOrgan>
+				<TaxtAmt>TaxtAmt</TaxtAmt>
+				<DataDate>DataDate</DataDate>
+			</Detail_TaxDefault>
+			<Detail_CivilJudgment nodeType="list" nodePath="PBOC_I_CiviJudgment">
+			    <CourtName>CourtName</CourtName>
+				<JudgeResu>JudgeResu</JudgeResu>
+				<EffeDate>EffeDate</EffeDate>
+			</Detail_CivilJudgment>
+			<Detail_Penalty nodeType="list" nodePath="PBOC_I_AdministrativePenalty">
+			    <SancOrgan>SancOrgan</SancOrgan>
+				<SancAmt>SancAmt</SancAmt>
+				<EffeDate>EffeDate</EffeDate>
+				<EndDate>EndDate</EndDate>
+			</Detail_Penalty>
+			<Detail_Enforce nodeType="list" nodePath="PBOC_I_Enforce">
+			    <CourtName>CourtName</CourtName>
+				<Status>Status</Status>
+				<EndDate>EndDate</EndDate>				
+			</Detail_Enforce>
+			<Detail_Qualification nodeType="list" nodePath="PBOC_I_Qualification">
+			    <CertName>CertName</CertName>
+				<CertLevel>CertLevel</CertLevel>
+				<IssueOrgan>IssueOrgan</IssueOrgan>
+				<BeginDate>BeginDate</BeginDate>
+				<EndDate>EndDate</EndDate>
+				<RevokeDate>RevokeDate</RevokeDate>
+			</Detail_Qualification>
+			<Detail_VehicleTransMortgage nodeType="list" nodePath="PBOC_I_VehicleTransMortgage">
+			    <VehiLice>VehiLice</VehiLice>
+				<EngineNo>EngineNo</EngineNo>
+				<VehiBrand>VehiBrand</VehiBrand>
+				<VehiType>VehiType</VehiType>
+				<Status>Status</Status>
+				<DataDate>DataDate</DataDate>
+			</Detail_VehicleTransMortgage>
+			<Detail_SpecialTrade nodeType="list" nodePath="PBOC_I_SpecialTrade">
+				<KeyNo>KeyNo</KeyNo>
+			    <TradeType method="adjustTradeType">TradeType</TradeType>
+				<Amount>Amount</Amount>
+				<DataDate>DataDate</DataDate>
+			</Detail_SpecialTrade>
+			<Detail_Declare nodeType="db" funcName="queryPBOCDeclare">
+				<!-- 
+			    <Declaration>Declaration</Declaration>
+				<AddDate>AddDate</AddDate>
+				 -->
+			</Detail_Declare>
+			<Detail_Objectionlabel nodeType="db" funcName="queryPBOCObjectionlabel">
+				<!-- 
+			    <ObjLabel>ObjLabel</ObjLabel>
+				<AddDate>AddDate</AddDate>
+				 -->
+			</Detail_Objectionlabel>
+			<Detail_Query nodeType="list" nodePath="PBOC_I_QueryDetail">
+				<KeyNo>KeyNo</KeyNo>
+				<Querier>Querier</Querier>
+				<QueryDate>QueryDate</QueryDate>
+				<QueryReas>QueryReas</QueryReas>
+			</Detail_Query>
+		</PBOC_I>
+    </Applicant_Co_Borrower_I>
+    <Applicant_Guarantor_I nodeType="list" nodePath="//Applicant_Guarantor_I">
+        <id_card_typ>gi_id_card_typ</id_card_typ>
+		<id_card_nbr>gi_id_card_nbr</id_card_nbr>
+		<first_thi_nme>gi_first_thi_nme</first_thi_nme>
+		<citizenship_dsc>gi_citizenship_dsc</citizenship_dsc>
+		<pre_decline_flag>gi_pre_decline_flag</pre_decline_flag>
+		<verified_income>gi_verified_income</verified_income>
+		<pboc_report_status>gi_pboc_report_status</pboc_report_status>
+		<guarantor_score nodeType="general">guarantor%s_score</guarantor_score>
+		<Address nodeType="list" nodePath="Address">
+		 	<address_type_cde>address_type_cde</address_type_cde>
+			<city>city</city>
+			<state_cde>state_cde</state_cde>
+			<time_in_year>time_in_year</time_in_year>
+			<time_in_month>time_in_month</time_in_month>
+			<property_type_cde>property_type_cde</property_type_cde>
+			<PhoneFax nodeType="list" nodePath="Phone_Fax">
+			   <phone_type_cde>phone_type_cde</phone_type_cde>
+			   <country_code>country_code</country_code>
+			   <area_code>area_code</area_code>
+			   <phone_number>phone_number</phone_number>
+			</PhoneFax>
+		</Address>
+		<Employment nodeType="list" nodePath="Employment" ifNodeName="established_since">
+		    <employer_type>employer_type</employer_type>
+			<name>name</name>
+			<city>city</city>
+			<province>province</province>
+			<years>years</years>
+		</Employment>
+		<PBOC_I nodeType="parent" nodePath="Applicant_Guarantor_I">
+		   	<PBOC_I_PDF_FILE nodeType="virtual" nodePath="PBOC_I_PDF_FILE">
+				<ReportNo>REPORTNO</ReportNo>
+				<QueryTime>QueryTime</QueryTime>
+			</PBOC_I_PDF_FILE>
+			<Identity nodeType="object" nodePath="PBOC_I_Basic">
+				<CustName>CustName</CustName>
+			    <BirthDay>BirthDay</BirthDay>
+				<MarrSign>MarrSign</MarrSign>
+				<EducSign>EducSign</EducSign>
+				<DegreeSign>DegreeSign</DegreeSign>
+				<OfficeTel>OfficeTel</OfficeTel>
+				<Mobile>Mobile</Mobile>
+				<HouseTel>HouseTel</HouseTel>
+			</Identity>
+			<Detail_Inhabitancy nodeType="db" funcName="queryPBOCInhabitancy">
+			 <!--   <InhabAddr>InhabAddr</InhabAddr>
+				<Status>Status</Status>
+				<DataDate>DataDate</DataDate>-->
+			</Detail_Inhabitancy>
+			<Detail_Occuption nodeType="db" funcName="queryPBOCOccuption">
+			    <!-- 
+			     <WorkUnit>WorkUnit</WorkUnit>
+				<CorpAddr>CorpAddr</CorpAddr>
+				<DataDate>DataDate</DataDate> 
+				-->
+			</Detail_Occuption>
+			<Summary_Loan nodeType="object" nodePath="PBOC_I_Summary">
+			    <LoanCorpAgenNum>LoanCorpAgenNum</LoanCorpAgenNum>
+				<LoanAgenNum>LoanAgenNum</LoanAgenNum>
+				<LoanNum>LoanNum</LoanNum>
+				<LoanContAmt>LoanContAmt</LoanContAmt>
+				<LoanBal>LoanBal</LoanBal>
+				<AverPayment>AverPayment</AverPayment>
+			</Summary_Loan>
+			<Summary_ICR nodeType="object" nodePath="PBOC_I_Summary">
+			    <IssuCorpAccNum>IssuCorpAccNum</IssuCorpAccNum>
+				<IssuAgenNum>IssuAgenNum</IssuAgenNum>
+				<AccountNum>AccountNum</AccountNum>
+				<CreditAmt>CreditAmt</CreditAmt>
+				<MaxCredAmt>MaxCredAmt</MaxCredAmt>
+				<MinCredAmt>MinCredAmt</MinCredAmt>
+				<UsedAmt>UsedAmt</UsedAmt>
+				<AverUsedAmt>AverUsedAmt</AverUsedAmt>
+			</Summary_ICR>
+			<Summary_QCR nodeType="object" nodePath="PBOC_I_Summary">
+			    <QCRIIssuCorpAccNum>QCRIIssuCorpAccNum</QCRIIssuCorpAccNum>
+				<QCRIIssuAgenNum>QCRIIssuAgenNum</QCRIIssuAgenNum>
+				<QCRIAccountNum>QCRIAccountNum</QCRIAccountNum>
+				<QCRICreditAmt>QCRICreditAmt</QCRICreditAmt>
+				<QCRIMaxCredAmt>QCRIMaxCredAmt</QCRIMaxCredAmt>
+				<QCRIMinCredAmt>QCRIMinCredAmt</QCRIMinCredAmt>
+				<OdrawBal>OdrawBal</OdrawBal>
+				<AverOdrawBal>AverOdrawBal</AverOdrawBal>
+			</Summary_QCR>
+			<Summary_Breach nodeType="object" nodePath="PBOC_I_Summary">
+			    <BadLoanNum>BadLoanNum</BadLoanNum>
+				<BadLoanBal>BadLoanBal</BadLoanBal>
+				<AssDispNum>AssDispNum</AssDispNum>
+				<AssDispBal>AssDispBal</AssDispBal>
+				<GuarPayNum>GuarPayNum</GuarPayNum>
+				<GuarPayBal>GuarPayBal</GuarPayBal>
+			</Summary_Breach>
+			<Summary_Odue nodeType="object" nodePath="PBOC_I_Summary">
+			    <LoanOdueNum>LoanOdueNum</LoanOdueNum>
+				<LoanOdueMons>LoanOdueMons</LoanOdueMons>
+				<LoanMaxOdueAmt>LoanMaxOdueAmt</LoanMaxOdueAmt>
+				<LoanMaxOdueMons>LoanMaxOdueMons</LoanMaxOdueMons>
+				<ICROdueNum>ICROdueNum</ICROdueNum>
+				<ICROdueMons>ICROdueMons</ICROdueMons>
+				<ICRMaxOdueAmt>ICRMaxOdueAmt</ICRMaxOdueAmt>
+				<ICRMaxOdueMons>ICRMaxOdueMons</ICRMaxOdueMons>
+				<QCROdrawNum>QCROdrawNum</QCROdrawNum>
+				<QCROdrawMons>QCROdrawMons</QCROdrawMons>
+				<QCRMaxOdrawBal>QCRMaxOdrawBal</QCRMaxOdrawBal>
+				<QCRMaxOdrawMons>QCRMaxOdrawMons</QCRMaxOdrawMons>
+			</Summary_Odue>
+			<Summary_Credit nodeType="object" nodePath="PBOC_I_Summary">
+			    <FirLoanBeginMon method="adjustDateFormat">FirLoanBeginMon</FirLoanBeginMon>
+				<FirICRBeginMon method="adjustDateFormat">FirICRBeginMon</FirICRBeginMon>
+				<FirQCRBeginMon method="adjustDateFormat">FirQCRBeginMon</FirQCRBeginMon>
+				<HouLoanNum>HouLoanNum</HouLoanNum>
+				<OthLoanNum>OthLoanNum</OthLoanNum>
+				<ICRAccNum>ICRAccNum</ICRAccNum>
+				<QCRAccNum>QCRAccNum</QCRAccNum>
+				<SelfDeclNum>SelfDeclNum</SelfDeclNum>
+				<ObjLabelNum>ObjLabelNum</ObjLabelNum>
+			</Summary_Credit>
+			<Summary_Guaranty nodeType="object" nodePath="PBOC_I_Summary">
+			    <GuarNum>GuarNum</GuarNum>
+				<GuarAmt>GuarAmt</GuarAmt>
+				<GuarBal>GuarBal</GuarBal>
+			</Summary_Guaranty>
+			<Summary_QueryHis nodeType="object" nodePath="PBOC_I_Summary">
+			    <PostLoanQueryNum>PostLoanQueryNum</PostLoanQueryNum>
+				<MNCQueryNum>MNCQueryNum</MNCQueryNum>
+				<CLQueryOrgs>CLQueryOrgs</CLQueryOrgs>
+				<CCRQueryOrgs>CCRQueryOrgs</CCRQueryOrgs>
+				<CLQueryNum>CLQueryNum</CLQueryNum>
+				<CCRQueryNum>CCRQueryNum</CCRQueryNum>
+				<PQueryNum>PQueryNum</PQueryNum>
+				<GCQQueryNum>GCQQueryNum</GCQQueryNum>
+			</Summary_QueryHis>
+			<Detail_Loan nodeType="list" nodePath="PBOC_I_LoanDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<LoanType method="adjustLoanType">LoanType</LoanType>
+				<LoanAmt>LoanAmt</LoanAmt>
+				<LoanBal>LoanBal</LoanBal>
+				<AccState>AccState</AccState>
+				<ClassResu>ClassResu</ClassResu>
+				<CurrOdueNum>CurrOdueNum</CurrOdueNum>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<CaliBal>CaliBal</CaliBal>
+			</Detail_Loan>
+			<Detail_ICR nodeType="list" nodePath="PBOC_I_CreditCardDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<CredAmt>CredAmt</CredAmt>
+				<UsedAmt>UsedAmt</UsedAmt>
+				<ShareCredAmt>ShareCredAmt</ShareCredAmt>
+				<CurrOdueNum>CurrOdueNum</CurrOdueNum>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<AccState>AccState</AccState>
+			</Detail_ICR>
+			<Detail_QCR nodeType="list" nodePath="PBOC_I_QuasiCreditCardDetail">
+				<KeyNo>KeyNo</KeyNo>
+			    <BeginDate>BeginDate</BeginDate>
+				<CurrSign>CurrSign</CurrSign>
+				<OrganName>OrganName</OrganName>
+				<CredAmt>CredAmt</CredAmt>
+				<OdrawBal>OdrawBal</OdrawBal>
+				<MaxOdrawBal>MaxOdrawBal</MaxOdrawBal>
+				<AccState>AccState</AccState>
+			</Detail_QCR>
+			<Detail_Guarantee nodeType="list" nodePath="PBOC_I_ExternalGuarantees">
+				<KeyNo>KeyNo</KeyNo>
+			    <LoanBeginDate method="adjustDateFormat">LoanBeginDate</LoanBeginDate>
+				<GuarAmt>GuarAmt</GuarAmt>
+				<LoanCapiBal>LoanCapiBal</LoanCapiBal>
+				<LoanClassResu>LoanClassResu</LoanClassResu>
+			</Detail_Guarantee>
+			<Detail_HousingFund nodeType="list" nodePath="PBOC_I_HousingFund">
+			    <BeginDate>BeginDate</BeginDate>
+				<BeginMonth>BeginMonth</BeginMonth>
+				<EndMonth>EndMonth</EndMonth>
+				<MonPayAmt>MonPayAmt</MonPayAmt>
+				<IndiPayPer>IndiPayPer</IndiPayPer>
+				<CompPayPer>CompPayPer</CompPayPer>
+				<PayUnit>PayUnit</PayUnit>
+				<PayAddr>PayAddr</PayAddr>
+				<Status>Status</Status>
+			</Detail_HousingFund>
+			<Detail_PensionDeposit nodeType="list" nodePath="PBOC_I_PensionInsuranceDeposit">
+			    <BeginDate>BeginDate</BeginDate>
+				<DataDate>DataDate</DataDate>
+				<Status>Status</Status>
+			</Detail_PensionDeposit>
+			<Detail_PensionExtend nodeType="list" nodePath="PBOC_I_PensionInsuranceExtend">
+			    <ProvAddr>ProvAddr</ProvAddr>
+				<CurrProvAmt>CurrProvAmt</CurrProvAmt>
+				<DataDate>DataDate</DataDate>				
+			</Detail_PensionExtend>
+			<Detail_AssetManage nodeType="list" nodePath="PBOC_I_AssetManage">
+			    <AMCName>AMCName</AMCName>
+				<DebtAmt>DebtAmt</DebtAmt>
+				<Balance>Balance</Balance>
+				<LastPayDate>LastPayDate</LastPayDate>
+			</Detail_AssetManage>
+			<Detail_Compensatory nodeType="list" nodePath="PBOC_I_GuarantorCompensatory">
+			    <RepayOrgan>RepayOrgan</RepayOrgan>
+				<Balance>Balance</Balance>
+				<LastRepayDate>LastRepayDate</LastRepayDate>
+			</Detail_Compensatory>
+			<Detail_TelePay nodeType="list" nodePath="PBOC_I_TelecomPayment">
+				<KeyNo>KeyNo</KeyNo>
+				<BeginDate>BeginDate</BeginDate>
+				<TeleProvider>TeleProvider</TeleProvider>
+				<CurrOdueAmt>CurrOdueAmt</CurrOdueAmt>
+				<Status>Status</Status>
+			</Detail_TelePay>
+			<Detail_TaxDefault nodeType="list" nodePath="PBOC_I_TaxDefault">
+			    <TaxOrgan>TaxOrgan</TaxOrgan>
+				<TaxtAmt>TaxtAmt</TaxtAmt>
+				<DataDate>DataDate</DataDate>
+			</Detail_TaxDefault>
+			<Detail_CivilJudgment nodeType="list" nodePath="PBOC_I_CiviJudgment">
+			    <CourtName>CourtName</CourtName>
+				<JudgeResu>JudgeResu</JudgeResu>
+				<EffeDate>EffeDate</EffeDate>
+			</Detail_CivilJudgment>
+			<Detail_Penalty nodeType="list" nodePath="PBOC_I_AdministrativePenalty">
+			    <SancOrgan>SancOrgan</SancOrgan>
+				<SancAmt>SancAmt</SancAmt>
+				<EffeDate>EffeDate</EffeDate>
+				<EndDate>EndDate</EndDate>
+			</Detail_Penalty>
+			<Detail_Enforce nodeType="list" nodePath="PBOC_I_Enforce">
+			    <CourtName>CourtName</CourtName>
+				<Status>Status</Status>
+				<EndDate>EndDate</EndDate>				
+			</Detail_Enforce>
+			<Detail_Qualification nodeType="list" nodePath="PBOC_I_Qualification">
+			    <CertName>CertName</CertName>
+				<CertLevel>CertLevel</CertLevel>
+				<IssueOrgan>IssueOrgan</IssueOrgan>
+				<BeginDate>BeginDate</BeginDate>
+				<EndDate>EndDate</EndDate>
+				<RevokeDate>RevokeDate</RevokeDate>
+			</Detail_Qualification>
+			<Detail_VehicleTransMortgage nodeType="list" nodePath="PBOC_I_VehicleTransMortgage">
+			    <VehiLice>VehiLice</VehiLice>
+				<EngineNo>EngineNo</EngineNo>
+				<VehiBrand>VehiBrand</VehiBrand>
+				<VehiType>VehiType</VehiType>
+				<Status>Status</Status>
+				<DataDate>DataDate</DataDate>
+			</Detail_VehicleTransMortgage>
+			<Detail_SpecialTrade nodeType="list" nodePath="PBOC_I_SpecialTrade">
+				<KeyNo>KeyNo</KeyNo>
+			    <TradeType method="adjustTradeType">TradeType</TradeType>
+				<Amount>Amount</Amount>
+				<DataDate>DataDate</DataDate>
+			</Detail_SpecialTrade>
+			<Detail_Declare nodeType="db" funcName="queryPBOCDeclare">
+				<!-- 
+			    <Declaration>Declaration</Declaration>
+				<AddDate>AddDate</AddDate>
+				 -->
+			</Detail_Declare>
+			<Detail_Objectionlabel nodeType="db" funcName="queryPBOCObjectionlabel">
+				<!-- 
+			    <ObjLabel>ObjLabel</ObjLabel>
+				<AddDate>AddDate</AddDate>
+				 -->
+			</Detail_Objectionlabel>
+			<Detail_Query nodeType="list" nodePath="PBOC_I_QueryDetail">
+				<KeyNo>KeyNo</KeyNo>
+				<Querier>Querier</Querier>
+				<QueryDate>QueryDate</QueryDate>
+				<QueryReas>QueryReas</QueryReas>
+			</Detail_Query>
+		</PBOC_I>
+    </Applicant_Guarantor_I>
+    <CallResult nodeType="child" nodePath="//CallResult">
+    	<dbr>dbr</dbr>
+        <finalscore>finalscore</finalscore>
+        <creditlevel>creditlevel</creditlevel>
+        <worstruleaction>worstruleaction</worstruleaction>
+        <finaldecision>finaldecision</finaldecision>
+    </CallResult>
+</Application>

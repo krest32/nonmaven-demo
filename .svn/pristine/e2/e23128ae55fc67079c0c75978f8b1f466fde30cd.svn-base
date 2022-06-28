@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <cbsrecommendationreason>
+        <label>CBSRecommendationReason</label>
+        <fields>
+            <appid>-9</appid>
+            <calltype>-9</calltype>
+            <callround>4</callround>
+            <reasonno>4</reasonno>
+            <reasoncode>-9</reasoncode>
+            <reasondescript>-9</reasondescript>
+        </fields>
+        <primaryKeys>appid,calltype,callround,reasonno</primaryKeys>
+    </cbsrecommendationreason>
+</table>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table>
+    <cbsrecommendationresult>
+        <label>CBSRecommendationResult</label>
+        <fields>
+            <appid>-9</appid>
+            <calltype>-9</calltype>
+            <callround>4</callround>
+            <approvesubscore>-9</approvesubscore>
+            <declinesubscore>-9</declinesubscore>
+            <aiscore>-9</aiscore>
+            <aidecision>-9</aidecision>
+            <blazerecommendation>-9</blazerecommendation>
+        </fields>
+        <primaryKeys>appid,calltype,callround</primaryKeys>
+    </cbsrecommendationresult>
+</table>

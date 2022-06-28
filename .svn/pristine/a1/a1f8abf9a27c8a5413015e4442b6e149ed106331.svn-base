@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table>
+    <cbspersonvariable>
+        <label>CBSPersonVariable</label>
+        <fields>
+            <appid>-9</appid>
+            <calltype>-9</calltype>
+            <callround>4</callround>
+            <personno>4</personno>
+            <applicanttype>-9</applicanttype>
+            <idcardtype>-9</idcardtype>
+            <idcardno>-9</idcardno>
+            <custname>-9</custname>
+            <addremploymentsame>4</addremploymentsame>
+            <addrdealersameprovince>4</addrdealersameprovince>
+            <addrdealersamecity>4</addrdealersamecity>
+            <employmentdealersameprovince>4</employmentdealersameprovince>
+            <employmentdealersamecity>4</employmentdealersamecity>
+            <samemobile>4</samemobile>
+            <avghabitancylength>3</avghabitancylength>
+            <lasthabitancylength>3</lasthabitancylength>
+            <avgoccuplength>3</avgoccuplength>
+            <lastoccuplength>3</lastoccuplength>
+            <employersimilarity>3</employersimilarity>
+            <hasvehitrans>4</hasvehitrans>
+            <hasextension>4</hasextension>
+            <hasguarantorrepay>4</hasguarantorrepay>
+            <smallloannum>4</smallloannum>
+            <newcarloannum>4</newcarloannum>
+            <newloannum>4</newloannum>
+            <newloanamt>3</newloanamt>
+            <newloanbal>3</newloanbal>
+            <newicrnum>4</newicrnum>
+            <newcredamticr>3</newcredamticr>
+            <newusedamticr>3</newusedamticr>
+        </fields>
+        <primaryKeys>appid,calltype,callround,personno</primaryKeys>
+    </cbspersonvariable>
+</table>

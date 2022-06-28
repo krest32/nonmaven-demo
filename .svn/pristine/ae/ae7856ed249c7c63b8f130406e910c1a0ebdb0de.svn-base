@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f48c2fb6-e51a-4c44-8dd6-dae32a49c1db" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ujrit0uDh6b2MvbSqRE1B6DMl0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data-structure-learning" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CoffeeScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fico.cbs.utils" />
+      <recent name="cbs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\demo-java\lib" />
+      <recent name="E:\project\demo-java\src\main\java\com\fico\cbs" />
+      <recent name="E:\project\demo-java\src\main\resources\config" />
+      <recent name="E:\project\demo-java" />
+      <recent name="E:\project\demo-java\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CBSInteAppTest.CBSTest">
+    <configuration name="CBSInteAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fico.cbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fico.cbs" />
+      <option name="MAIN_CLASS_NAME" value="com.fico.cbs.CBSInteAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CBSInteAppTest.CBSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fico.cbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fico.cbs" />
+      <option name="MAIN_CLASS_NAME" value="com.fico.cbs.CBSInteAppTest" />
+      <option name="METHOD_NAME" value="CBSTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CBSInteAppTest.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fico.cbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fico.cbs" />
+      <option name="MAIN_CLASS_NAME" value="com.fico.cbs.CBSInteAppTest" />
+      <option name="METHOD_NAME" value="load" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CBSInteAppTest.loadXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fico.cbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fico.cbs" />
+      <option name="MAIN_CLASS_NAME" value="com.fico.cbs.CBSInteAppTest" />
+      <option name="METHOD_NAME" value="loadXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CBSInteAppTest.testJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fico.cbs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fico.cbs" />
+      <option name="MAIN_CLASS_NAME" value="com.fico.cbs.CBSInteAppTest" />
+      <option name="METHOD_NAME" value="testJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CBSInteAppTest.CBSTest" />
+      <item itemvalue="JUnit.CBSInteAppTest.load" />
+      <item itemvalue="JUnit.CBSInteAppTest.loadXml" />
+      <item itemvalue="JUnit.CBSInteAppTest" />
+      <item itemvalue="JUnit.CBSInteAppTest.testJson" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CBSInteAppTest.CBSTest" />
+        <item itemvalue="JUnit.CBSInteAppTest.loadXml" />
+        <item itemvalue="JUnit.CBSInteAppTest.testJson" />
+        <item itemvalue="JUnit.CBSInteAppTest" />
+        <item itemvalue="JUnit.CBSInteAppTest.load" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f48c2fb6-e51a-4c44-8dd6-dae32a49c1db" name="Default Changelist" comment="" />
+      <created>1625189969276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625189969276</updated>
+      <workItem from="1625189971138" duration="17130000" />
+      <workItem from="1625209871735" duration="8425000" />
+      <workItem from="1625219933391" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1625191404704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1625191404704" />
+    <state x="375" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625203145718">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1625203145718" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1625215934200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625215934200" />
+    <state x="353" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1625203468731">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="353" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1625203468731" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625209349586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625209349586" />
+    <state x="457" y="104" key="FileChooserDialogImpl" timestamp="1625217719723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625217719723" />
+    <state width="1323" height="356" key="GridCell.Tab.0.bottom" timestamp="1625217594271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="356" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625217594271" />
+    <state width="1323" height="356" key="GridCell.Tab.0.center" timestamp="1625217594270">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="356" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625217594270" />
+    <state width="1323" height="356" key="GridCell.Tab.0.left" timestamp="1625217594270">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="356" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625217594270" />
+    <state width="1323" height="356" key="GridCell.Tab.0.right" timestamp="1625217594271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="356" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625217594271" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1625194717678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625194717678" />
+    <state x="482" y="141" key="chooseDestDirectoryDialog" timestamp="1625190590023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625190590023" />
+    <state x="413" y="122" key="extract.method.dialog" timestamp="1625218245813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="122" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1625218245813" />
+    <state x="57" y="0" key="new project wizard" timestamp="1625203646121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1625203646121" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1625197598689">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1625197598689" />
+  </component>
+</project>

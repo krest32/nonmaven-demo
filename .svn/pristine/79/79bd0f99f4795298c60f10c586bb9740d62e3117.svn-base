@@ -1,0 +1,2575 @@
+{
+  "Application": {
+    "application_number": "MB-A712057000",
+    "calltype": "call2",
+    "callround": "1",
+    "General": { "dealer_id": "56667" },
+    "Assets_Finacial_Term": {
+      "asset_make_cde": "00001",
+      "condition": "N",
+      "vehicle_type_cde": "00001",
+      "usage": "00001",
+      "asset_model_cde": "10720",
+      "new_price": "289800.00",
+      "amount_financed": "299286.72",
+      "subsidy_rate": "9.2500",
+      "lease_term_in_month": "36",
+      "balloon_percentage": "0.00"
+    },
+    "Applicant_Borrower_I": {
+      "id_card_typ": "00001",
+      "id_card_nbr": "330723199301221916",
+      "first_thi_nme": "程航",
+      "sex": "M",
+      "isnew": "true",
+      "pre_decline_flag": "false",
+      "verified_income": "3200.00000",
+      "Address": [
+        {
+          "address_type_cde": "00001",
+          "city": "金华市",
+          "state_cde": "浙江省",
+          "time_in_year": "1",
+          "property_type_cde": "00001",
+          "PhoneFax": [
+            {
+              "phone_type_cde": "00001",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00009",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00008",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            }
+          ]
+        },
+        {
+          "address_type_cde": "00001",
+          "city": "金华市",
+          "state_cde": "浙江省",
+          "time_in_year": "1",
+          "property_type_cde": "00002",
+          "PhoneFax": [
+            {
+              "phone_type_cde": "00001",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00009",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00003",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            }
+          ]
+        }
+      ],
+      "Employment": [
+        {
+          "employer_type": "00007",
+          "name": "武义县壶山街道团团小吃店",
+          "city": "金华市",
+          "province": "浙江省",
+          "years": "7"
+        },
+        {
+          "employer_type": "00007",
+          "name": "武义县壶山程根法电动机修理店",
+          "city": "金华市",
+          "province": "浙江省",
+          "years": "7"
+        }
+      ],
+      "PBOC_I": {
+        "ReportNo": "2018030600005217386642",
+        "QueryTime": "2018.03.06 18:21:05",
+        "Identity": {
+          "Birthday": "1990.08.15",
+          "MarrSign": "未婚",
+          "EducSign": "大学专科和专科学校(简称\"大专\")",
+          "DegreeSign": "其他",
+          "OfficeTel": "02915891797303",
+          "Mobile": "15229103444"
+        },
+        "Detail_Inhabitancy": [
+          {
+            "InhabAddr": "美国",
+            "Status": "自置",
+            "DataDate": "2012.07.06"
+          },
+          {
+            "InhabAddr": "陕西省西安市西咸新区王家村(可通邮)",
+            "Status": "自置",
+            "DataDate": "2018.02.28"
+          },
+          {
+            "InhabAddr": "河北石家庄",
+            "Status": "自置",
+            "DataDate": "2012.07.05"
+          },
+          {
+            "InhabAddr": "西城区卢沟桥南里50楼三门301号",
+            "Status": "--",
+            "DataDate": "2005.11.20"
+          }
+        ],
+        "Detail_Occuption": [
+          {
+            "WorkUnit": "个体李佳",
+            "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+            "DataDate": "2018.02.24"
+          },
+          {
+            "WorkUnit": "工商个体",
+            "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+            "DataDate": "2018.02.26"
+          },
+          {
+            "WorkUnit": "学校",
+            "CorpAddr": "美国",
+            "DataDate": "2012.07.06"
+          },
+          {
+            "WorkUnit": "湖南长沙琴岛",
+            "CorpAddr": "长沙某路",
+            "DataDate": "2012.07.06"
+          },
+          {
+            "WorkUnit": "建行",
+            "CorpAddr": "不知道",
+            "DataDate": "2012.07.05"
+          }
+        ],
+        "Summary_Loan": {
+          "LoanCorpAgenNum": "3",
+          "LoanAgenNum": "4",
+          "LoanNum": "4",
+          "LoanContAmt": "1,710,000",
+          "LoanBal": "952,000",
+          "AverPayment": "0"
+        },
+        "Summary_ICR": {
+          "IssuCorpAccNum": "2",
+          "IssuAgenNum": "3",
+          "AccountNum": "5",
+          "CreditAmt": "610,000",
+          "MaxCredAmt": "300,000",
+          "MinCredAmt": "60,000",
+          "UsedAmt": "95,500",
+          "AverUsedAmt": "0"
+        },
+        "Summary_QCR": {
+          "QCRIIssuCorpAccNum": "2",
+          "QCRIIssuAgenNum": "3",
+          "QCRIAccountNum": "5",
+          "QCRICreditAmt": "710,000",
+          "QCRIMaxCredAmt": "500,000",
+          "QCRIMinCredAmt": "60,000",
+          "OdrawBal": "65,500",
+          "AverOdrawBal": "0"
+        },
+        "Summary_Breach": {
+          "BadLoanNum": "3",
+          "BadLoanBal": "200,000",
+          "AssDispNum": "2",
+          "AssDispBal": "17,000",
+          "GuarPayNum": "1",
+          "GuarPayBal": "5,000"
+        },
+        "Summary_Odue": {
+          "LoanOdueNum": "2",
+          "LoanOdueMons": "7",
+          "LoanMaxOdueAmt": "11,000",
+          "LoanMaxOdueMons": "3",
+          "ICROdueNum": "3",
+          "ICROdueMons": "19",
+          "ICRMaxOdueAmt": "60,000",
+          "ICRMaxOdueMons": "7",
+          "QCROdrawNum": "3",
+          "QCROdrawMons": "8",
+          "QCRMaxOdrawBal": "45,000",
+          "QCRMaxOdrawMons": "7"
+        },
+        "Summary_Credit": {
+          "FirLoanBeginMon": "2004.08",
+          "FirICRBeginMon": "2004.05",
+          "FirQCRBeginMon": "2004.04",
+          "HouLoanNum": "2",
+          "OthLoanNum": "4",
+          "ICRAccNum": "7",
+          "QCRAccNum": "7",
+          "SelfDeclNum": "6",
+          "ObjLabelNum": "6"
+        },
+        "Summary_Guaranty": {
+          "GuarNum": "3",
+          "GuarAmt": "110,000",
+          "GuarBal": "6,000"
+        },
+        "Summary_QueryHis": {
+          "PostLoanQueryNum": "7",
+          "MNCQueryNum": "0",
+          "CLQueryOrgs": "3",
+          "CCRQueryOrgs": "2",
+          "CLQueryNum": "9",
+          "CCRQueryNum": "5",
+          "PQueryNum": "4",
+          "GCQQueryNum": "0"
+        },
+        "Detail_Loan": [
+          {
+            "BeginDate": "2008年08月05日",
+            "LoanType": "个人住房贷款",
+            "LoanAmt": "600,000",
+            "LoanBal": "400,000",
+            "AccState": "逾期",
+            "ClassResu": "损失",
+            "CurrOdueNum": "2",
+            "CurrOdueAmt": "5,500"
+          },
+          {
+            "BeginDate": "2012年10月20日",
+            "LoanType": "个人住房贷款",
+            "LoanAmt": "500,000",
+            "LoanBal": "150,000",
+            "AccState": "呆账"
+          },
+          {
+            "BeginDate": "2005年04月12日",
+            "LoanType": "农户贷款",
+            "LoanAmt": "600,000",
+            "LoanBal": "400,000",
+            "AccState": "正常",
+            "ClassResu": "正常",
+            "CurrOdueNum": "0",
+            "CurrOdueAmt": "0"
+          }
+        ],
+        "Detail_ICR": [
+          {
+            "BeginDate": "2010年03月18日",
+            "CredAmt": "300,000",
+            "AccState": "呆账"
+          },
+          {
+            "BeginDate": "2010年03月19日",
+            "CredAmt": "200,000",
+            "UsedAmt": "40,000",
+            "CurrOdueNum": "4",
+            "CurrOdueAmt": "60,000",
+            "AccState": "冻结"
+          },
+          {
+            "BeginDate": "2005年09月22日",
+            "CredAmt": "60,000",
+            "UsedAmt": "5,500",
+            "CurrOdueNum": "2",
+            "CurrOdueAmt": "5,500",
+            "AccState": "止付"
+          }
+        ],
+        "Detail_QCR": [
+          {
+            "BeginDate": "2005年12月20日",
+            "CredAmt": "500,000",
+            "AccState": "呆账"
+          },
+          {
+            "BeginDate": "2005年09月27日",
+            "CredAmt": "50,000",
+            "OdrawBal": "45,000",
+            "MaxOdrawBal": "50,000",
+            "AccState": "止付"
+          },
+          {
+            "BeginDate": "2005年03月22日",
+            "CredAmt": "60,000",
+            "OdrawBal": "15,000",
+            "MaxOdrawBal": "7,000",
+            "AccState": "冻结"
+          }
+        ],
+        "Detail_Guarantee": [
+          {
+            "LoanBeginDate": "2005.07.20",
+            "GuarAmt": "50,000",
+            "LoanCapiBal": "2,000",
+            "LoanClassResu": "关注"
+          },
+          {
+            "LoanBeginDate": "2005.08.20",
+            "GuarAmt": "30,000",
+            "LoanCapiBal": "2,000",
+            "LoanClassResu": "正常"
+          },
+          {
+            "LoanBeginDate": "2005.09.20",
+            "GuarAmt": "30,000",
+            "LoanCapiBal": "2,000",
+            "LoanClassResu": "损失"
+          }
+        ],
+        "Detail_HousingFund": [
+          {
+            "BeginDate": "2003.01",
+            "EndMonth": "2005.01",
+            "Status": "缴交"
+          },
+          {
+            "BeginDate": "2005.01",
+            "EndMonth": "2014.04",
+            "Status": "缴交"
+          }
+        ],
+        "Detail_PensionDeposit": [
+          {
+            "BeginDate": "2000.01.01",
+            "DataDate": "2006.04.01",
+            "Status": "暂停缴费(中断)"
+          },
+          {
+            "BeginDate": "2000.01.01",
+            "DataDate": "2006.04.01",
+            "Status": "暂停缴费(中断)"
+          }
+        ],
+        "Detail_PensionExtend": [
+          {
+            "ProvAddr": "天津河北区",
+            "CurrProvAmt": "3000.00",
+            "DataDate": "2018.04.05"
+          },
+          {
+            "ProvAddr": "北京海淀区",
+            "CurrProvAmt": "6000.00",
+            "DataDate": "2018.04.06"
+          }
+        ],
+        "Detail_AssetManage": [
+          {
+            "AMCName": "QA",
+            "DebtAmt": "11,000",
+            "Balance": "10,000",
+            "LastPayDate": "2012.01.01"
+          },
+          {
+            "AMCName": "QA",
+            "DebtAmt": "11,000",
+            "Balance": "7,000",
+            "LastPayDate": "2012.04.01"
+          }
+        ],
+        "Detail_Compensatory": [
+          {
+            "RepayOrgan": "ZE",
+            "Balance": "5,000",
+            "LastRepayDate": "2012.06.01"
+          },
+          {
+            "RepayOrgan": "CE",
+            "Balance": "8,000",
+            "LastRepayDate": "2015.06.01"
+          }
+        ],
+        "Detail_TelePay": [
+          {
+            "TeleProvider": "中国移动通信集团重庆有限公司",
+            "CurrOdueAmt": "0",
+            "Status": "正常"
+          },
+          {
+            "TeleProvider": "中国移动通信集团天津有限公司",
+            "CurrOdueAmt": "0",
+            "Status": "正常"
+          }
+        ],
+        "Detail_TaxDefault": [
+          {
+            "TaxOrgan": "天津河北区国税局",
+            "TaxtAmt": "0",
+            "DataDate": "2012.01.26"
+          },
+          {
+            "TaxOrgan": "天津南京区国税局",
+            "TaxtAmt": "1000",
+            "DataDate": "2014.01.26"
+          }
+        ],
+        "Detail_CivilJudgment": [
+          {
+            "CourtName": "立案法院名称",
+            "JudgeResu": "与该当事人相关的判决/调解结果",
+            "EffeDate": "--"
+          },
+          {
+            "CourtName": "立案法院名称",
+            "JudgeResu": "与该当事人相关的判决/调解结果",
+            "EffeDate": "--"
+          }
+        ],
+        "Detail_Penalty": [
+          {
+            "SancOrgan": "河北区国税局",
+            "SancAmt": "0",
+            "EffeDate": "2011.05.01",
+            "EndDate": "--"
+          },
+          {
+            "SancOrgan": "河北区国税局",
+            "SancAmt": "0",
+            "EffeDate": "2011.05.01",
+            "EndDate": "--"
+          }
+        ],
+        "Detail_Enforce": [
+          {
+            "CourtName": "天长市人民法院",
+            "Status": "--",
+            "EndDate": "--"
+          },
+          {
+            "CourtName": "天津市人民法院",
+            "Status": "--",
+            "EndDate": "--"
+          }
+        ],
+        "Detail_Qualification": [
+          {
+            "CertName": "优秀相声演员",
+            "CertLevel": "国家级机构颁发的执业资格证书",
+            "IssueOrgan": "中国曲艺协会",
+            "BeginDate": "2001.01",
+            "EndDate": "2010.12",
+            "RevokeDate": "000000"
+          },
+          {
+            "CertName": "优秀相声演员",
+            "CertLevel": "国家级机构颁发的执业资格证书",
+            "IssueOrgan": "中国曲艺协会",
+            "BeginDate": "2001.01",
+            "EndDate": "2010.12",
+            "RevokeDate": "000000"
+          }
+        ],
+        "Detail_VehicleTransMortgage": [
+          {
+            "VehiLice": "车户信息覆盖",
+            "EngineNo": "发动机号01",
+            "VehiBrand": "奥迪",
+            "VehiType": "半挂车",
+            "Status": "正常",
+            "DataDate": "2014.01.01"
+          },
+          {
+            "VehiLice": "车户信息覆盖",
+            "EngineNo": "发动机号01",
+            "VehiBrand": "奥迪",
+            "VehiType": "半挂车",
+            "Status": "正常",
+            "DataDate": "2014.01.01"
+          }
+        ],
+        "Detail_SpecialTrade": [
+          {
+            "TradeType": "其他",
+            "Amount": "32,000",
+            "DataDate": "2014.09.22"
+          },
+          {
+            "TradeType": "展期(延期)",
+            "Amount": "50,000",
+            "DataDate": "2014.12.22"
+          }
+        ],
+        "Detail_Declare": [
+          {
+            "Declaration": "该贷款还款期为2005年6月至2008年6月20日。本人因2003年非典，延迟毕业一年，曾提前向工行提出展期还款",
+            "AddDate": "2014.06.10"
+          },
+          {
+            "Declaration": "本信用报告中反映的2004年4月引起的信用卡恶意透支行为并非本人所为",
+            "AddDate": "2014.12.01"
+          },
+          {
+            "Declaration": "本报告不太准确哦",
+            "AddDate": "2014.12.01"
+          }
+        ],
+        "Detail_Objectionlabel": [
+          {
+            "ObjLabel": "此有争议111",
+            "AddDate": "2009.03.13"
+          },
+          {
+            "ObjLabel": "这个不客观",
+            "AddDate": "2014.03.13"
+          },
+          {
+            "ObjLabel": "这个数据有误",
+            "AddDate": "2014.03.13"
+          }
+        ]
+      }
+    },
+    "Applicant_Co_Borrower_I": {
+      "id_card_typ": "00001",
+      "id_card_nbr": "330723199301221916",
+      "first_thi_nme": "程航",
+      "pre_decline_flag": "false",
+      "verified_income": "3200.00000",
+      "Address": [
+        {
+          "address_type_cde": "00001",
+          "city": "金华市",
+          "state_cde": "浙江省",
+          "time_in_year": "1",
+          "property_type_cde": "00001",
+          "PhoneFax": [
+            {
+              "phone_type_cde": "00001",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00009",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00008",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            }
+          ]
+        },
+        {
+          "address_type_cde": "00001",
+          "city": "金华市",
+          "state_cde": "浙江省",
+          "time_in_year": "1",
+          "property_type_cde": "00002",
+          "PhoneFax": [
+            {
+              "phone_type_cde": "00001",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00009",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            },
+            {
+              "phone_type_cde": "00003",
+              "country_code": "86",
+              "area_code": "0579",
+              "phone_number": "1"
+            }
+          ]
+        }
+      ],
+      "Employment": [
+        {
+          "employer_type": "00007",
+          "name": "武义县壶山街道团团小吃店",
+          "city": "金华市",
+          "province": "浙江省",
+          "years": "7"
+        },
+        {
+          "employer_type": "00007",
+          "name": "武义县壶山程根法电动机修理店",
+          "city": "金华市",
+          "province": "浙江省",
+          "years": "7"
+        }
+      ],
+      "PBOC_I": {
+        "ReportNo": "2018030600005217386642",
+        "QueryTime": "2018.03.06 18:21:05",
+        "Identity": {
+          "Birthday": "1990.08.15",
+          "MarrSign": "未婚",
+          "EducSign": "大学专科和专科学校(简称\"大专\")",
+          "DegreeSign": "其他",
+          "OfficeTel": "02915891797303",
+          "Mobile": "15229103444"
+        },
+        "Detail_Inhabitancy": [
+          {
+            "InhabAddr": "美国",
+            "Status": "自置",
+            "DataDate": "2012.07.06"
+          },
+          {
+            "InhabAddr": "陕西省西安市西咸新区王家村(可通邮)",
+            "Status": "自置",
+            "DataDate": "2018.02.28"
+          },
+          {
+            "InhabAddr": "河北石家庄",
+            "Status": "自置",
+            "DataDate": "2012.07.05"
+          },
+          {
+            "InhabAddr": "西城区卢沟桥南里50楼三门301号",
+            "Status": "--",
+            "DataDate": "2005.11.20"
+          }
+        ],
+        "Detail_Occuption": [
+          {
+            "WorkUnit": "个体李佳",
+            "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+            "DataDate": "2018.02.24"
+          },
+          {
+            "WorkUnit": "工商个体",
+            "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+            "DataDate": "2018.02.26"
+          },
+          {
+            "WorkUnit": "学校",
+            "CorpAddr": "美国",
+            "DataDate": "2012.07.06"
+          },
+          {
+            "WorkUnit": "湖南长沙琴岛",
+            "CorpAddr": "长沙某路",
+            "DataDate": "2012.07.06"
+          },
+          {
+            "WorkUnit": "建行",
+            "CorpAddr": "不知道",
+            "DataDate": "2012.07.05"
+          }
+        ],
+        "Summary_Loan": {
+          "LoanCorpAgenNum": "3",
+          "LoanAgenNum": "4",
+          "LoanNum": "4",
+          "LoanContAmt": "1,710,000",
+          "LoanBal": "952,000",
+          "AverPayment": "0"
+        },
+        "Summary_ICR": {
+          "IssuCorpAccNum": "2",
+          "IssuAgenNum": "3",
+          "AccountNum": "5",
+          "CreditAmt": "610,000",
+          "MaxCredAmt": "300,000",
+          "MinCredAmt": "60,000",
+          "UsedAmt": "95,500",
+          "AverUsedAmt": "0"
+        },
+        "Summary_QCR": {
+          "QCRIIssuCorpAccNum": "2",
+          "QCRIIssuAgenNum": "3",
+          "QCRIAccountNum": "5",
+          "QCRICreditAmt": "710,000",
+          "QCRIMaxCredAmt": "500,000",
+          "QCRIMinCredAmt": "60,000",
+          "OdrawBal": "65,500",
+          "AverOdrawBal": "0"
+        },
+        "Summary_Breach": {
+          "BadLoanNum": "3",
+          "BadLoanBal": "200,000",
+          "AssDispNum": "2",
+          "AssDispBal": "17,000",
+          "GuarPayNum": "1",
+          "GuarPayBal": "5,000"
+        },
+        "Summary_Odue": {
+          "LoanOdueNum": "2",
+          "LoanOdueMons": "7",
+          "LoanMaxOdueAmt": "11,000",
+          "LoanMaxOdueMons": "3",
+          "ICROdueNum": "3",
+          "ICROdueMons": "19",
+          "ICRMaxOdueAmt": "60,000",
+          "ICRMaxOdueMons": "7",
+          "QCROdrawNum": "3",
+          "QCROdrawMons": "8",
+          "QCRMaxOdrawBal": "45,000",
+          "QCRMaxOdrawMons": "7"
+        },
+        "Summary_Credit": {
+          "FirLoanBeginMon": "2004.08",
+          "FirICRBeginMon": "2004.05",
+          "FirQCRBeginMon": "2004.04",
+          "HouLoanNum": "2",
+          "OthLoanNum": "4",
+          "ICRAccNum": "7",
+          "QCRAccNum": "7",
+          "SelfDeclNum": "6",
+          "ObjLabelNum": "6"
+        },
+        "Summary_Guaranty": {
+          "GuarNum": "3",
+          "GuarAmt": "110,000",
+          "GuarBal": "6,000"
+        },
+        "Summary_QueryHis": {
+          "PostLoanQueryNum": "7",
+          "MNCQueryNum": "0",
+          "CLQueryOrgs": "3",
+          "CCRQueryOrgs": "2",
+          "CLQueryNum": "9",
+          "CCRQueryNum": "5",
+          "PQueryNum": "4",
+          "GCQQueryNum": "0"
+        },
+        "Detail_Loan": [
+          {
+            "BeginDate": "2008年08月05日",
+            "LoanType": "个人住房贷款",
+            "LoanAmt": "600,000",
+            "LoanBal": "400,000",
+            "AccState": "逾期",
+            "ClassResu": "损失",
+            "CurrOdueNum": "2",
+            "CurrOdueAmt": "5,500"
+          },
+          {
+            "BeginDate": "2012年10月20日",
+            "LoanType": "个人住房贷款",
+            "LoanAmt": "500,000",
+            "LoanBal": "150,000",
+            "AccState": "呆账"
+          },
+          {
+            "BeginDate": "2005年04月12日",
+            "LoanType": "农户贷款",
+            "LoanAmt": "600,000",
+            "LoanBal": "400,000",
+            "AccState": "正常",
+            "ClassResu": "正常",
+            "CurrOdueNum": "0",
+            "CurrOdueAmt": "0"
+          }
+        ],
+        "Detail_ICR": [
+          {
+            "BeginDate": "2010年03月18日",
+            "CredAmt": "300,000",
+            "AccState": "呆账"
+          },
+          {
+            "BeginDate": "2010年03月19日",
+            "CredAmt": "200,000",
+            "UsedAmt": "40,000",
+            "CurrOdueNum": "4",
+            "CurrOdueAmt": "60,000",
+            "AccState": "冻结"
+          },
+          {
+            "BeginDate": "2005年09月22日",
+            "CredAmt": "60,000",
+            "UsedAmt": "5,500",
+            "CurrOdueNum": "2",
+            "CurrOdueAmt": "5,500",
+            "AccState": "止付"
+          }
+        ],
+        "Detail_QCR": [
+          {
+            "BeginDate": "2005年12月20日",
+            "CredAmt": "500,000",
+            "AccState": "呆账"
+          },
+          {
+            "BeginDate": "2005年09月27日",
+            "CredAmt": "50,000",
+            "OdrawBal": "45,000",
+            "MaxOdrawBal": "50,000",
+            "AccState": "止付"
+          },
+          {
+            "BeginDate": "2005年03月22日",
+            "CredAmt": "60,000",
+            "OdrawBal": "15,000",
+            "MaxOdrawBal": "7,000",
+            "AccState": "冻结"
+          }
+        ],
+        "Detail_Guarantee": [
+          {
+            "LoanBeginDate": "2005.07.20",
+            "GuarAmt": "50,000",
+            "LoanCapiBal": "2,000",
+            "LoanClassResu": "关注"
+          },
+          {
+            "LoanBeginDate": "2005.08.20",
+            "GuarAmt": "30,000",
+            "LoanCapiBal": "2,000",
+            "LoanClassResu": "正常"
+          },
+          {
+            "LoanBeginDate": "2005.09.20",
+            "GuarAmt": "30,000",
+            "LoanCapiBal": "2,000",
+            "LoanClassResu": "损失"
+          }
+        ],
+        "Detail_HousingFund": [
+          {
+            "BeginDate": "2003.01",
+            "EndMonth": "2005.01",
+            "Status": "缴交"
+          },
+          {
+            "BeginDate": "2005.01",
+            "EndMonth": "2014.04",
+            "Status": "缴交"
+          }
+        ],
+        "Detail_PensionDeposit": [
+          {
+            "BeginDate": "2000.01.01",
+            "DataDate": "2006.04.01",
+            "Status": "暂停缴费(中断)"
+          },
+          {
+            "BeginDate": "2000.01.01",
+            "DataDate": "2006.04.01",
+            "Status": "暂停缴费(中断)"
+          }
+        ],
+        "Detail_PensionExtend": [
+          {
+            "ProvAddr": "天津河北区",
+            "CurrProvAmt": "3000.00",
+            "DataDate": "2018.04.05"
+          },
+          {
+            "ProvAddr": "北京海淀区",
+            "CurrProvAmt": "6000.00",
+            "DataDate": "2018.04.06"
+          }
+        ],
+        "Detail_AssetManage": [
+          {
+            "AMCName": "QA",
+            "DebtAmt": "11,000",
+            "Balance": "10,000",
+            "LastPayDate": "2012.01.01"
+          },
+          {
+            "AMCName": "QA",
+            "DebtAmt": "11,000",
+            "Balance": "7,000",
+            "LastPayDate": "2012.04.01"
+          }
+        ],
+        "Detail_Compensatory": [
+          {
+            "RepayOrgan": "ZE",
+            "Balance": "5,000",
+            "LastRepayDate": "2012.06.01"
+          },
+          {
+            "RepayOrgan": "CE",
+            "Balance": "8,000",
+            "LastRepayDate": "2015.06.01"
+          }
+        ],
+        "Detail_TelePay": [
+          {
+            "TeleProvider": "中国移动通信集团重庆有限公司",
+            "CurrOdueAmt": "0",
+            "Status": "正常"
+          },
+          {
+            "TeleProvider": "中国移动通信集团天津有限公司",
+            "CurrOdueAmt": "0",
+            "Status": "正常"
+          }
+        ],
+        "Detail_TaxDefault": [
+          {
+            "TaxOrgan": "天津河北区国税局",
+            "TaxtAmt": "0",
+            "DataDate": "2012.01.26"
+          },
+          {
+            "TaxOrgan": "天津南京区国税局",
+            "TaxtAmt": "1000",
+            "DataDate": "2014.01.26"
+          }
+        ],
+        "Detail_CivilJudgment": [
+          {
+            "CourtName": "立案法院名称",
+            "JudgeResu": "与该当事人相关的判决/调解结果",
+            "EffeDate": "--"
+          },
+          {
+            "CourtName": "立案法院名称",
+            "JudgeResu": "与该当事人相关的判决/调解结果",
+            "EffeDate": "--"
+          }
+        ],
+        "Detail_Penalty": [
+          {
+            "SancOrgan": "河北区国税局",
+            "SancAmt": "0",
+            "EffeDate": "2011.05.01",
+            "EndDate": "--"
+          },
+          {
+            "SancOrgan": "河北区国税局",
+            "SancAmt": "0",
+            "EffeDate": "2011.05.01",
+            "EndDate": "--"
+          }
+        ],
+        "Detail_Enforce": [
+          {
+            "CourtName": "天长市人民法院",
+            "Status": "--",
+            "EndDate": "--"
+          },
+          {
+            "CourtName": "天津市人民法院",
+            "Status": "--",
+            "EndDate": "--"
+          }
+        ],
+        "Detail_Qualification": [
+          {
+            "CertName": "优秀相声演员",
+            "CertLevel": "国家级机构颁发的执业资格证书",
+            "IssueOrgan": "中国曲艺协会",
+            "BeginDate": "2001.01",
+            "EndDate": "2010.12",
+            "RevokeDate": "000000"
+          },
+          {
+            "CertName": "优秀相声演员",
+            "CertLevel": "国家级机构颁发的执业资格证书",
+            "IssueOrgan": "中国曲艺协会",
+            "BeginDate": "2001.01",
+            "EndDate": "2010.12",
+            "RevokeDate": "000000"
+          }
+        ],
+        "Detail_VehicleTransMortgage": [
+          {
+            "VehiLice": "车户信息覆盖",
+            "EngineNo": "发动机号01",
+            "VehiBrand": "奥迪",
+            "VehiType": "半挂车",
+            "Status": "正常",
+            "DataDate": "2014.01.01"
+          },
+          {
+            "VehiLice": "车户信息覆盖",
+            "EngineNo": "发动机号01",
+            "VehiBrand": "奥迪",
+            "VehiType": "半挂车",
+            "Status": "正常",
+            "DataDate": "2014.01.01"
+          }
+        ],
+        "Detail_SpecialTrade": [
+          {
+            "TradeType": "其他",
+            "Amount": "32,000",
+            "DataDate": "2014.09.22"
+          },
+          {
+            "TradeType": "展期(延期)",
+            "Amount": "50,000",
+            "DataDate": "2014.12.22"
+          }
+        ],
+        "Detail_Declare": [
+          {
+            "Declaration": "该贷款还款期为2005年6月至2008年6月20日。本人因2003年非典，延迟毕业一年，曾提前向工行提出展期还款",
+            "AddDate": "2014.06.10"
+          },
+          {
+            "Declaration": "本信用报告中反映的2004年4月引起的信用卡恶意透支行为并非本人所为",
+            "AddDate": "2014.12.01"
+          },
+          {
+            "Declaration": "本报告不太准确哦",
+            "AddDate": "2014.12.01"
+          }
+        ],
+        "Detail_Objectionlabel": [
+          {
+            "ObjLabel": "此有争议111",
+            "AddDate": "2009.03.13"
+          },
+          {
+            "ObjLabel": "这个不客观",
+            "AddDate": "2014.03.13"
+          },
+          {
+            "ObjLabel": "这个数据有误",
+            "AddDate": "2014.03.13"
+          }
+        ]
+      }
+    },
+    "Applicant_Guarantor_I": [
+      {
+        "id_card_typ": "00001",
+        "id_card_nbr": "330723196710041912",
+        "first_thi_nme": "程根法",
+        "pre_decline_flag": "false",
+        "verified_income": "3200.00000",
+        "Address": [
+          {
+            "address_type_cde": "00001",
+            "city": "金华市",
+            "state_cde": "浙江省",
+            "time_in_year": "1",
+            "property_type_cde": "00001",
+            "PhoneFax": [
+              {
+                "phone_type_cde": "00001",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00009",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00008",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              }
+            ]
+          },
+          {
+            "address_type_cde": "00001",
+            "city": "金华市",
+            "state_cde": "浙江省",
+            "time_in_year": "1",
+            "property_type_cde": "00002",
+            "PhoneFax": [
+              {
+                "phone_type_cde": "00001",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00009",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00003",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              }
+            ]
+          }
+        ],
+        "Employment": [
+          {
+            "employer_type": "00007",
+            "name": "武义县壶山街道团团小吃店",
+            "city": "金华市",
+            "province": "浙江省",
+            "years": "7"
+          },
+          {
+            "employer_type": "00007",
+            "name": "武义县壶山程根法电动机修理店",
+            "city": "金华市",
+            "province": "浙江省",
+            "years": "7"
+          }
+        ],
+        "PBOC_I": {
+          "ReportNo": "2018030600005217386642",
+          "QueryTime": "2018.03.06 18:21:05",
+          "Identity": {
+            "Birthday": "1990.08.15",
+            "MarrSign": "未婚",
+            "EducSign": "大学专科和专科学校(简称\"大专\")",
+            "DegreeSign": "其他",
+            "OfficeTel": "02915891797303",
+            "Mobile": "15229103444"
+          },
+          "Detail_Inhabitancy": [
+            {
+              "InhabAddr": "美国",
+              "Status": "自置",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "InhabAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "Status": "自置",
+              "DataDate": "2018.02.28"
+            },
+            {
+              "InhabAddr": "河北石家庄",
+              "Status": "自置",
+              "DataDate": "2012.07.05"
+            },
+            {
+              "InhabAddr": "西城区卢沟桥南里50楼三门301号",
+              "Status": "--",
+              "DataDate": "2005.11.20"
+            }
+          ],
+          "Detail_Occuption": [
+            {
+              "WorkUnit": "个体李佳",
+              "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "DataDate": "2018.02.24"
+            },
+            {
+              "WorkUnit": "工商个体",
+              "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "DataDate": "2018.02.26"
+            },
+            {
+              "WorkUnit": "学校",
+              "CorpAddr": "美国",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "WorkUnit": "湖南长沙琴岛",
+              "CorpAddr": "长沙某路",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "WorkUnit": "建行",
+              "CorpAddr": "不知道",
+              "DataDate": "2012.07.05"
+            }
+          ],
+          "Summary_Loan": {
+            "LoanCorpAgenNum": "3",
+            "LoanAgenNum": "4",
+            "LoanNum": "4",
+            "LoanContAmt": "1,710,000",
+            "LoanBal": "952,000",
+            "AverPayment": "0"
+          },
+          "Summary_ICR": {
+            "IssuCorpAccNum": "2",
+            "IssuAgenNum": "3",
+            "AccountNum": "5",
+            "CreditAmt": "610,000",
+            "MaxCredAmt": "300,000",
+            "MinCredAmt": "60,000",
+            "UsedAmt": "95,500",
+            "AverUsedAmt": "0"
+          },
+          "Summary_QCR": {
+            "QCRIIssuCorpAccNum": "2",
+            "QCRIIssuAgenNum": "3",
+            "QCRIAccountNum": "5",
+            "QCRICreditAmt": "710,000",
+            "QCRIMaxCredAmt": "500,000",
+            "QCRIMinCredAmt": "60,000",
+            "OdrawBal": "65,500",
+            "AverOdrawBal": "0"
+          },
+          "Summary_Breach": {
+            "BadLoanNum": "3",
+            "BadLoanBal": "200,000",
+            "AssDispNum": "2",
+            "AssDispBal": "17,000",
+            "GuarPayNum": "1",
+            "GuarPayBal": "5,000"
+          },
+          "Summary_Odue": {
+            "LoanOdueNum": "2",
+            "LoanOdueMons": "7",
+            "LoanMaxOdueAmt": "11,000",
+            "LoanMaxOdueMons": "3",
+            "ICROdueNum": "3",
+            "ICROdueMons": "19",
+            "ICRMaxOdueAmt": "60,000",
+            "ICRMaxOdueMons": "7",
+            "QCROdrawNum": "3",
+            "QCROdrawMons": "8",
+            "QCRMaxOdrawBal": "45,000",
+            "QCRMaxOdrawMons": "7"
+          },
+          "Summary_Credit": {
+            "FirLoanBeginMon": "2004.08",
+            "FirICRBeginMon": "2004.05",
+            "FirQCRBeginMon": "2004.04",
+            "HouLoanNum": "2",
+            "OthLoanNum": "4",
+            "ICRAccNum": "7",
+            "QCRAccNum": "7",
+            "SelfDeclNum": "6",
+            "ObjLabelNum": "6"
+          },
+          "Summary_Guaranty": {
+            "GuarNum": "3",
+            "GuarAmt": "110,000",
+            "GuarBal": "6,000"
+          },
+          "Summary_QueryHis": {
+            "PostLoanQueryNum": "7",
+            "MNCQueryNum": "0",
+            "CLQueryOrgs": "3",
+            "CCRQueryOrgs": "2",
+            "CLQueryNum": "9",
+            "CCRQueryNum": "5",
+            "PQueryNum": "4",
+            "GCQQueryNum": "0"
+          },
+          "Detail_Loan": [
+            {
+              "BeginDate": "2008年08月05日",
+              "LoanType": "个人住房贷款",
+              "LoanAmt": "600,000",
+              "LoanBal": "400,000",
+              "AccState": "逾期",
+              "ClassResu": "损失",
+              "CurrOdueNum": "2",
+              "CurrOdueAmt": "5,500"
+            },
+            {
+              "BeginDate": "2012年10月20日",
+              "LoanType": "个人住房贷款",
+              "LoanAmt": "500,000",
+              "LoanBal": "150,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2005年04月12日",
+              "LoanType": "农户贷款",
+              "LoanAmt": "600,000",
+              "LoanBal": "400,000",
+              "AccState": "正常",
+              "ClassResu": "正常",
+              "CurrOdueNum": "0",
+              "CurrOdueAmt": "0"
+            }
+          ],
+          "Detail_ICR": [
+            {
+              "BeginDate": "2010年03月18日",
+              "CredAmt": "300,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2010年03月19日",
+              "CredAmt": "200,000",
+              "UsedAmt": "40,000",
+              "CurrOdueNum": "4",
+              "CurrOdueAmt": "60,000",
+              "AccState": "冻结"
+            },
+            {
+              "BeginDate": "2005年09月22日",
+              "CredAmt": "60,000",
+              "UsedAmt": "5,500",
+              "CurrOdueNum": "2",
+              "CurrOdueAmt": "5,500",
+              "AccState": "止付"
+            }
+          ],
+          "Detail_QCR": [
+            {
+              "BeginDate": "2005年12月20日",
+              "CredAmt": "500,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2005年09月27日",
+              "CredAmt": "50,000",
+              "OdrawBal": "45,000",
+              "MaxOdrawBal": "50,000",
+              "AccState": "止付"
+            },
+            {
+              "BeginDate": "2005年03月22日",
+              "CredAmt": "60,000",
+              "OdrawBal": "15,000",
+              "MaxOdrawBal": "7,000",
+              "AccState": "冻结"
+            }
+          ],
+          "Detail_Guarantee": [
+            {
+              "LoanBeginDate": "2005.07.20",
+              "GuarAmt": "50,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "关注"
+            },
+            {
+              "LoanBeginDate": "2005.08.20",
+              "GuarAmt": "30,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "正常"
+            },
+            {
+              "LoanBeginDate": "2005.09.20",
+              "GuarAmt": "30,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "损失"
+            }
+          ],
+          "Detail_HousingFund": [
+            {
+              "BeginDate": "2003.01",
+              "EndMonth": "2005.01",
+              "Status": "缴交"
+            },
+            {
+              "BeginDate": "2005.01",
+              "EndMonth": "2014.04",
+              "Status": "缴交"
+            }
+          ],
+          "Detail_PensionDeposit": [
+            {
+              "BeginDate": "2000.01.01",
+              "DataDate": "2006.04.01",
+              "Status": "暂停缴费(中断)"
+            },
+            {
+              "BeginDate": "2000.01.01",
+              "DataDate": "2006.04.01",
+              "Status": "暂停缴费(中断)"
+            }
+          ],
+          "Detail_PensionExtend": [
+            {
+              "ProvAddr": "天津河北区",
+              "CurrProvAmt": "3000.00",
+              "DataDate": "2018.04.05"
+            },
+            {
+              "ProvAddr": "北京海淀区",
+              "CurrProvAmt": "6000.00",
+              "DataDate": "2018.04.06"
+            }
+          ],
+          "Detail_AssetManage": [
+            {
+              "AMCName": "QA",
+              "DebtAmt": "11,000",
+              "Balance": "10,000",
+              "LastPayDate": "2012.01.01"
+            },
+            {
+              "AMCName": "QA",
+              "DebtAmt": "11,000",
+              "Balance": "7,000",
+              "LastPayDate": "2012.04.01"
+            }
+          ],
+          "Detail_Compensatory": [
+            {
+              "RepayOrgan": "ZE",
+              "Balance": "5,000",
+              "LastRepayDate": "2012.06.01"
+            },
+            {
+              "RepayOrgan": "CE",
+              "Balance": "8,000",
+              "LastRepayDate": "2015.06.01"
+            }
+          ],
+          "Detail_TelePay": [
+            {
+              "TeleProvider": "中国移动通信集团重庆有限公司",
+              "CurrOdueAmt": "0",
+              "Status": "正常"
+            },
+            {
+              "TeleProvider": "中国移动通信集团天津有限公司",
+              "CurrOdueAmt": "0",
+              "Status": "正常"
+            }
+          ],
+          "Detail_TaxDefault": [
+            {
+              "TaxOrgan": "天津河北区国税局",
+              "TaxtAmt": "0",
+              "DataDate": "2012.01.26"
+            },
+            {
+              "TaxOrgan": "天津南京区国税局",
+              "TaxtAmt": "1000",
+              "DataDate": "2014.01.26"
+            }
+          ],
+          "Detail_CivilJudgment": [
+            {
+              "CourtName": "立案法院名称",
+              "JudgeResu": "与该当事人相关的判决/调解结果",
+              "EffeDate": "--"
+            },
+            {
+              "CourtName": "立案法院名称",
+              "JudgeResu": "与该当事人相关的判决/调解结果",
+              "EffeDate": "--"
+            }
+          ],
+          "Detail_Penalty": [
+            {
+              "SancOrgan": "河北区国税局",
+              "SancAmt": "0",
+              "EffeDate": "2011.05.01",
+              "EndDate": "--"
+            },
+            {
+              "SancOrgan": "河北区国税局",
+              "SancAmt": "0",
+              "EffeDate": "2011.05.01",
+              "EndDate": "--"
+            }
+          ],
+          "Detail_Enforce": [
+            {
+              "CourtName": "天长市人民法院",
+              "Status": "--",
+              "EndDate": "--"
+            },
+            {
+              "CourtName": "天津市人民法院",
+              "Status": "--",
+              "EndDate": "--"
+            }
+          ],
+          "Detail_Qualification": [
+            {
+              "CertName": "优秀相声演员",
+              "CertLevel": "国家级机构颁发的执业资格证书",
+              "IssueOrgan": "中国曲艺协会",
+              "BeginDate": "2001.01",
+              "EndDate": "2010.12",
+              "RevokeDate": "000000"
+            },
+            {
+              "CertName": "优秀相声演员",
+              "CertLevel": "国家级机构颁发的执业资格证书",
+              "IssueOrgan": "中国曲艺协会",
+              "BeginDate": "2001.01",
+              "EndDate": "2010.12",
+              "RevokeDate": "000000"
+            }
+          ],
+          "Detail_VehicleTransMortgage": [
+            {
+              "VehiLice": "车户信息覆盖",
+              "EngineNo": "发动机号01",
+              "VehiBrand": "奥迪",
+              "VehiType": "半挂车",
+              "Status": "正常",
+              "DataDate": "2014.01.01"
+            },
+            {
+              "VehiLice": "车户信息覆盖",
+              "EngineNo": "发动机号01",
+              "VehiBrand": "奥迪",
+              "VehiType": "半挂车",
+              "Status": "正常",
+              "DataDate": "2014.01.01"
+            }
+          ],
+          "Detail_SpecialTrade": [
+            {
+              "TradeType": "其他",
+              "Amount": "32,000",
+              "DataDate": "2014.09.22"
+            },
+            {
+              "TradeType": "展期(延期)",
+              "Amount": "50,000",
+              "DataDate": "2014.12.22"
+            }
+          ],
+          "Detail_Declare": [
+            {
+              "Declaration": "该贷款还款期为2005年6月至2008年6月20日。本人因2003年非典，延迟毕业一年，曾提前向工行提出展期还款",
+              "AddDate": "2014.06.10"
+            },
+            {
+              "Declaration": "本信用报告中反映的2004年4月引起的信用卡恶意透支行为并非本人所为",
+              "AddDate": "2014.12.01"
+            },
+            {
+              "Declaration": "本报告不太准确哦",
+              "AddDate": "2014.12.01"
+            }
+          ],
+          "Detail_Objectionlabel": [
+            {
+              "ObjLabel": "此有争议111",
+              "AddDate": "2009.03.13"
+            },
+            {
+              "ObjLabel": "这个不客观",
+              "AddDate": "2014.03.13"
+            },
+            {
+              "ObjLabel": "这个数据有误",
+              "AddDate": "2014.03.13"
+            }
+          ]
+        }
+      },
+      {
+        "id_card_typ": "00001",
+        "id_card_nbr": "332526196807127923",
+        "first_thi_nme": "戴金仙",
+        "pre_decline_flag": "false",
+        "verified_income": "3200.00000",
+        "Address": [
+          {
+            "address_type_cde": "00001",
+            "city": "金华市",
+            "state_cde": "浙江省",
+            "time_in_year": "1",
+            "property_type_cde": "00001",
+            "PhoneFax": [
+              {
+                "phone_type_cde": "00001",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00009",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00008",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              }
+            ]
+          },
+          {
+            "address_type_cde": "00001",
+            "city": "金华市",
+            "state_cde": "浙江省",
+            "time_in_year": "1",
+            "property_type_cde": "00002",
+            "PhoneFax": [
+              {
+                "phone_type_cde": "00001",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00009",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00003",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              }
+            ]
+          }
+        ],
+        "Employment": [
+          {
+            "employer_type": "00007",
+            "name": "武义县壶山街道团团小吃店",
+            "city": "金华市",
+            "province": "浙江省",
+            "years": "7"
+          },
+          {
+            "employer_type": "00007",
+            "name": "武义县壶山程根法电动机修理店",
+            "city": "金华市",
+            "province": "浙江省",
+            "years": "7"
+          }
+        ],
+        "PBOC_I": {
+          "ReportNo": "2018030600005217386642",
+          "QueryTime": "2018.03.06 18:21:05",
+          "Identity": {
+            "Birthday": "1990.08.15",
+            "MarrSign": "未婚",
+            "EducSign": "大学专科和专科学校(简称\"大专\")",
+            "DegreeSign": "其他",
+            "OfficeTel": "02915891797303",
+            "Mobile": "15229103444"
+          },
+          "Detail_Inhabitancy": [
+            {
+              "InhabAddr": "美国",
+              "Status": "自置",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "InhabAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "Status": "自置",
+              "DataDate": "2018.02.28"
+            },
+            {
+              "InhabAddr": "河北石家庄",
+              "Status": "自置",
+              "DataDate": "2012.07.05"
+            },
+            {
+              "InhabAddr": "西城区卢沟桥南里50楼三门301号",
+              "Status": "--",
+              "DataDate": "2005.11.20"
+            }
+          ],
+          "Detail_Occuption": [
+            {
+              "WorkUnit": "个体李佳",
+              "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "DataDate": "2018.02.24"
+            },
+            {
+              "WorkUnit": "工商个体",
+              "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "DataDate": "2018.02.26"
+            },
+            {
+              "WorkUnit": "学校",
+              "CorpAddr": "美国",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "WorkUnit": "湖南长沙琴岛",
+              "CorpAddr": "长沙某路",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "WorkUnit": "建行",
+              "CorpAddr": "不知道",
+              "DataDate": "2012.07.05"
+            }
+          ],
+          "Summary_Loan": {
+            "LoanCorpAgenNum": "3",
+            "LoanAgenNum": "4",
+            "LoanNum": "4",
+            "LoanContAmt": "1,710,000",
+            "LoanBal": "952,000",
+            "AverPayment": "0"
+          },
+          "Summary_ICR": {
+            "IssuCorpAccNum": "2",
+            "IssuAgenNum": "3",
+            "AccountNum": "5",
+            "CreditAmt": "610,000",
+            "MaxCredAmt": "300,000",
+            "MinCredAmt": "60,000",
+            "UsedAmt": "95,500",
+            "AverUsedAmt": "0"
+          },
+          "Summary_QCR": {
+            "QCRIIssuCorpAccNum": "2",
+            "QCRIIssuAgenNum": "3",
+            "QCRIAccountNum": "5",
+            "QCRICreditAmt": "710,000",
+            "QCRIMaxCredAmt": "500,000",
+            "QCRIMinCredAmt": "60,000",
+            "OdrawBal": "65,500",
+            "AverOdrawBal": "0"
+          },
+          "Summary_Breach": {
+            "BadLoanNum": "3",
+            "BadLoanBal": "200,000",
+            "AssDispNum": "2",
+            "AssDispBal": "17,000",
+            "GuarPayNum": "1",
+            "GuarPayBal": "5,000"
+          },
+          "Summary_Odue": {
+            "LoanOdueNum": "2",
+            "LoanOdueMons": "7",
+            "LoanMaxOdueAmt": "11,000",
+            "LoanMaxOdueMons": "3",
+            "ICROdueNum": "3",
+            "ICROdueMons": "19",
+            "ICRMaxOdueAmt": "60,000",
+            "ICRMaxOdueMons": "7",
+            "QCROdrawNum": "3",
+            "QCROdrawMons": "8",
+            "QCRMaxOdrawBal": "45,000",
+            "QCRMaxOdrawMons": "7"
+          },
+          "Summary_Credit": {
+            "FirLoanBeginMon": "2004.08",
+            "FirICRBeginMon": "2004.05",
+            "FirQCRBeginMon": "2004.04",
+            "HouLoanNum": "2",
+            "OthLoanNum": "4",
+            "ICRAccNum": "7",
+            "QCRAccNum": "7",
+            "SelfDeclNum": "6",
+            "ObjLabelNum": "6"
+          },
+          "Summary_Guaranty": {
+            "GuarNum": "3",
+            "GuarAmt": "110,000",
+            "GuarBal": "6,000"
+          },
+          "Summary_QueryHis": {
+            "PostLoanQueryNum": "7",
+            "MNCQueryNum": "0",
+            "CLQueryOrgs": "3",
+            "CCRQueryOrgs": "2",
+            "CLQueryNum": "9",
+            "CCRQueryNum": "5",
+            "PQueryNum": "4",
+            "GCQQueryNum": "0"
+          },
+          "Detail_Loan": [
+            {
+              "BeginDate": "2008年08月05日",
+              "LoanType": "个人住房贷款",
+              "LoanAmt": "600,000",
+              "LoanBal": "400,000",
+              "AccState": "逾期",
+              "ClassResu": "损失",
+              "CurrOdueNum": "2",
+              "CurrOdueAmt": "5,500"
+            },
+            {
+              "BeginDate": "2012年10月20日",
+              "LoanType": "个人住房贷款",
+              "LoanAmt": "500,000",
+              "LoanBal": "150,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2005年04月12日",
+              "LoanType": "农户贷款",
+              "LoanAmt": "600,000",
+              "LoanBal": "400,000",
+              "AccState": "正常",
+              "ClassResu": "正常",
+              "CurrOdueNum": "0",
+              "CurrOdueAmt": "0"
+            }
+          ],
+          "Detail_ICR": [
+            {
+              "BeginDate": "2010年03月18日",
+              "CredAmt": "300,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2010年03月19日",
+              "CredAmt": "200,000",
+              "UsedAmt": "40,000",
+              "CurrOdueNum": "4",
+              "CurrOdueAmt": "60,000",
+              "AccState": "冻结"
+            },
+            {
+              "BeginDate": "2005年09月22日",
+              "CredAmt": "60,000",
+              "UsedAmt": "5,500",
+              "CurrOdueNum": "2",
+              "CurrOdueAmt": "5,500",
+              "AccState": "止付"
+            }
+          ],
+          "Detail_QCR": [
+            {
+              "BeginDate": "2005年12月20日",
+              "CredAmt": "500,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2005年09月27日",
+              "CredAmt": "50,000",
+              "OdrawBal": "45,000",
+              "MaxOdrawBal": "50,000",
+              "AccState": "止付"
+            },
+            {
+              "BeginDate": "2005年03月22日",
+              "CredAmt": "60,000",
+              "OdrawBal": "15,000",
+              "MaxOdrawBal": "7,000",
+              "AccState": "冻结"
+            }
+          ],
+          "Detail_Guarantee": [
+            {
+              "LoanBeginDate": "2005.07.20",
+              "GuarAmt": "50,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "关注"
+            },
+            {
+              "LoanBeginDate": "2005.08.20",
+              "GuarAmt": "30,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "正常"
+            },
+            {
+              "LoanBeginDate": "2005.09.20",
+              "GuarAmt": "30,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "损失"
+            }
+          ],
+          "Detail_HousingFund": [
+            {
+              "BeginDate": "2003.01",
+              "EndMonth": "2005.01",
+              "Status": "缴交"
+            },
+            {
+              "BeginDate": "2005.01",
+              "EndMonth": "2014.04",
+              "Status": "缴交"
+            }
+          ],
+          "Detail_PensionDeposit": [
+            {
+              "BeginDate": "2000.01.01",
+              "DataDate": "2006.04.01",
+              "Status": "暂停缴费(中断)"
+            },
+            {
+              "BeginDate": "2000.01.01",
+              "DataDate": "2006.04.01",
+              "Status": "暂停缴费(中断)"
+            }
+          ],
+          "Detail_PensionExtend": [
+            {
+              "ProvAddr": "天津河北区",
+              "CurrProvAmt": "3000.00",
+              "DataDate": "2018.04.05"
+            },
+            {
+              "ProvAddr": "北京海淀区",
+              "CurrProvAmt": "6000.00",
+              "DataDate": "2018.04.06"
+            }
+          ],
+          "Detail_AssetManage": [
+            {
+              "AMCName": "QA",
+              "DebtAmt": "11,000",
+              "Balance": "10,000",
+              "LastPayDate": "2012.01.01"
+            },
+            {
+              "AMCName": "QA",
+              "DebtAmt": "11,000",
+              "Balance": "7,000",
+              "LastPayDate": "2012.04.01"
+            }
+          ],
+          "Detail_Compensatory": [
+            {
+              "RepayOrgan": "ZE",
+              "Balance": "5,000",
+              "LastRepayDate": "2012.06.01"
+            },
+            {
+              "RepayOrgan": "CE",
+              "Balance": "8,000",
+              "LastRepayDate": "2015.06.01"
+            }
+          ],
+          "Detail_TelePay": [
+            {
+              "TeleProvider": "中国移动通信集团重庆有限公司",
+              "CurrOdueAmt": "0",
+              "Status": "正常"
+            },
+            {
+              "TeleProvider": "中国移动通信集团天津有限公司",
+              "CurrOdueAmt": "0",
+              "Status": "正常"
+            }
+          ],
+          "Detail_TaxDefault": [
+            {
+              "TaxOrgan": "天津河北区国税局",
+              "TaxtAmt": "0",
+              "DataDate": "2012.01.26"
+            },
+            {
+              "TaxOrgan": "天津南京区国税局",
+              "TaxtAmt": "1000",
+              "DataDate": "2014.01.26"
+            }
+          ],
+          "Detail_CivilJudgment": [
+            {
+              "CourtName": "立案法院名称",
+              "JudgeResu": "与该当事人相关的判决/调解结果",
+              "EffeDate": "--"
+            },
+            {
+              "CourtName": "立案法院名称",
+              "JudgeResu": "与该当事人相关的判决/调解结果",
+              "EffeDate": "--"
+            }
+          ],
+          "Detail_Penalty": [
+            {
+              "SancOrgan": "河北区国税局",
+              "SancAmt": "0",
+              "EffeDate": "2011.05.01",
+              "EndDate": "--"
+            },
+            {
+              "SancOrgan": "河北区国税局",
+              "SancAmt": "0",
+              "EffeDate": "2011.05.01",
+              "EndDate": "--"
+            }
+          ],
+          "Detail_Enforce": [
+            {
+              "CourtName": "天长市人民法院",
+              "Status": "--",
+              "EndDate": "--"
+            },
+            {
+              "CourtName": "天津市人民法院",
+              "Status": "--",
+              "EndDate": "--"
+            }
+          ],
+          "Detail_Qualification": [
+            {
+              "CertName": "优秀相声演员",
+              "CertLevel": "国家级机构颁发的执业资格证书",
+              "IssueOrgan": "中国曲艺协会",
+              "BeginDate": "2001.01",
+              "EndDate": "2010.12",
+              "RevokeDate": "000000"
+            },
+            {
+              "CertName": "优秀相声演员",
+              "CertLevel": "国家级机构颁发的执业资格证书",
+              "IssueOrgan": "中国曲艺协会",
+              "BeginDate": "2001.01",
+              "EndDate": "2010.12",
+              "RevokeDate": "000000"
+            }
+          ],
+          "Detail_VehicleTransMortgage": [
+            {
+              "VehiLice": "车户信息覆盖",
+              "EngineNo": "发动机号01",
+              "VehiBrand": "奥迪",
+              "VehiType": "半挂车",
+              "Status": "正常",
+              "DataDate": "2014.01.01"
+            },
+            {
+              "VehiLice": "车户信息覆盖",
+              "EngineNo": "发动机号01",
+              "VehiBrand": "奥迪",
+              "VehiType": "半挂车",
+              "Status": "正常",
+              "DataDate": "2014.01.01"
+            }
+          ],
+          "Detail_SpecialTrade": [
+            {
+              "TradeType": "其他",
+              "Amount": "32,000",
+              "DataDate": "2014.09.22"
+            },
+            {
+              "TradeType": "展期(延期)",
+              "Amount": "50,000",
+              "DataDate": "2014.12.22"
+            }
+          ],
+          "Detail_Declare": [
+            {
+              "Declaration": "该贷款还款期为2005年6月至2008年6月20日。本人因2003年非典，延迟毕业一年，曾提前向工行提出展期还款",
+              "AddDate": "2014.06.10"
+            },
+            {
+              "Declaration": "本信用报告中反映的2004年4月引起的信用卡恶意透支行为并非本人所为",
+              "AddDate": "2014.12.01"
+            },
+            {
+              "Declaration": "本报告不太准确哦",
+              "AddDate": "2014.12.01"
+            }
+          ],
+          "Detail_Objectionlabel": [
+            {
+              "ObjLabel": "此有争议111",
+              "AddDate": "2009.03.13"
+            },
+            {
+              "ObjLabel": "这个不客观",
+              "AddDate": "2014.03.13"
+            },
+            {
+              "ObjLabel": "这个数据有误",
+              "AddDate": "2014.03.13"
+            }
+          ]
+        }
+      },
+      {
+        "id_card_typ": "00001",
+        "id_card_nbr": "330723196710041912",
+        "first_thi_nme": "程根法",
+        "pre_decline_flag": "false",
+        "verified_income": "3200.00000",
+        "Address": [
+          {
+            "address_type_cde": "00001",
+            "city": "金华市",
+            "state_cde": "浙江省",
+            "time_in_year": "1",
+            "property_type_cde": "00001",
+            "PhoneFax": [
+              {
+                "phone_type_cde": "00001",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00009",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00008",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              }
+            ]
+          },
+          {
+            "address_type_cde": "00001",
+            "city": "金华市",
+            "state_cde": "浙江省",
+            "time_in_year": "1",
+            "property_type_cde": "00002",
+            "PhoneFax": [
+              {
+                "phone_type_cde": "00001",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00009",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              },
+              {
+                "phone_type_cde": "00003",
+                "country_code": "86",
+                "area_code": "0579",
+                "phone_number": "1"
+              }
+            ]
+          }
+        ],
+        "Employment": [
+          {
+            "employer_type": "00007",
+            "name": "武义县壶山街道团团小吃店",
+            "city": "金华市",
+            "province": "浙江省",
+            "years": "7"
+          },
+          {
+            "employer_type": "00007",
+            "name": "武义县壶山程根法电动机修理店",
+            "city": "金华市",
+            "province": "浙江省",
+            "years": "7"
+          }
+        ],
+        "PBOC_I": {
+          "ReportNo": "2018030600005217386642",
+          "QueryTime": "2018.03.06 18:21:05",
+          "Identity": {
+            "Birthday": "1990.08.15",
+            "MarrSign": "未婚",
+            "EducSign": "大学专科和专科学校(简称\"大专\")",
+            "DegreeSign": "其他",
+            "OfficeTel": "02915891797303",
+            "Mobile": "15229103444"
+          },
+          "Detail_Inhabitancy": [
+            {
+              "InhabAddr": "美国",
+              "Status": "自置",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "InhabAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "Status": "自置",
+              "DataDate": "2018.02.28"
+            },
+            {
+              "InhabAddr": "河北石家庄",
+              "Status": "自置",
+              "DataDate": "2012.07.05"
+            },
+            {
+              "InhabAddr": "西城区卢沟桥南里50楼三门301号",
+              "Status": "--",
+              "DataDate": "2005.11.20"
+            }
+          ],
+          "Detail_Occuption": [
+            {
+              "WorkUnit": "个体李佳",
+              "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "DataDate": "2018.02.24"
+            },
+            {
+              "WorkUnit": "工商个体",
+              "CorpAddr": "陕西省西安市西咸新区王家村(可通邮)",
+              "DataDate": "2018.02.26"
+            },
+            {
+              "WorkUnit": "学校",
+              "CorpAddr": "美国",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "WorkUnit": "湖南长沙琴岛",
+              "CorpAddr": "长沙某路",
+              "DataDate": "2012.07.06"
+            },
+            {
+              "WorkUnit": "建行",
+              "CorpAddr": "不知道",
+              "DataDate": "2012.07.05"
+            }
+          ],
+          "Summary_Loan": {
+            "LoanCorpAgenNum": "3",
+            "LoanAgenNum": "4",
+            "LoanNum": "4",
+            "LoanContAmt": "1,710,000",
+            "LoanBal": "952,000",
+            "AverPayment": "0"
+          },
+          "Summary_ICR": {
+            "IssuCorpAccNum": "2",
+            "IssuAgenNum": "3",
+            "AccountNum": "5",
+            "CreditAmt": "610,000",
+            "MaxCredAmt": "300,000",
+            "MinCredAmt": "60,000",
+            "UsedAmt": "95,500",
+            "AverUsedAmt": "0"
+          },
+          "Summary_QCR": {
+            "QCRIIssuCorpAccNum": "2",
+            "QCRIIssuAgenNum": "3",
+            "QCRIAccountNum": "5",
+            "QCRICreditAmt": "710,000",
+            "QCRIMaxCredAmt": "500,000",
+            "QCRIMinCredAmt": "60,000",
+            "OdrawBal": "65,500",
+            "AverOdrawBal": "0"
+          },
+          "Summary_Breach": {
+            "BadLoanNum": "3",
+            "BadLoanBal": "200,000",
+            "AssDispNum": "2",
+            "AssDispBal": "17,000",
+            "GuarPayNum": "1",
+            "GuarPayBal": "5,000"
+          },
+          "Summary_Odue": {
+            "LoanOdueNum": "2",
+            "LoanOdueMons": "7",
+            "LoanMaxOdueAmt": "11,000",
+            "LoanMaxOdueMons": "3",
+            "ICROdueNum": "3",
+            "ICROdueMons": "19",
+            "ICRMaxOdueAmt": "60,000",
+            "ICRMaxOdueMons": "7",
+            "QCROdrawNum": "3",
+            "QCROdrawMons": "8",
+            "QCRMaxOdrawBal": "45,000",
+            "QCRMaxOdrawMons": "7"
+          },
+          "Summary_Credit": {
+            "FirLoanBeginMon": "2004.08",
+            "FirICRBeginMon": "2004.05",
+            "FirQCRBeginMon": "2004.04",
+            "HouLoanNum": "2",
+            "OthLoanNum": "4",
+            "ICRAccNum": "7",
+            "QCRAccNum": "7",
+            "SelfDeclNum": "6",
+            "ObjLabelNum": "6"
+          },
+          "Summary_Guaranty": {
+            "GuarNum": "3",
+            "GuarAmt": "110,000",
+            "GuarBal": "6,000"
+          },
+          "Summary_QueryHis": {
+            "PostLoanQueryNum": "7",
+            "MNCQueryNum": "0",
+            "CLQueryOrgs": "3",
+            "CCRQueryOrgs": "2",
+            "CLQueryNum": "9",
+            "CCRQueryNum": "5",
+            "PQueryNum": "4",
+            "GCQQueryNum": "0"
+          },
+          "Detail_Loan": [
+            {
+              "BeginDate": "2008年08月05日",
+              "LoanType": "个人住房贷款",
+              "LoanAmt": "600,000",
+              "LoanBal": "400,000",
+              "AccState": "逾期",
+              "ClassResu": "损失",
+              "CurrOdueNum": "2",
+              "CurrOdueAmt": "5,500"
+            },
+            {
+              "BeginDate": "2012年10月20日",
+              "LoanType": "个人住房贷款",
+              "LoanAmt": "500,000",
+              "LoanBal": "150,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2005年04月12日",
+              "LoanType": "农户贷款",
+              "LoanAmt": "600,000",
+              "LoanBal": "400,000",
+              "AccState": "正常",
+              "ClassResu": "正常",
+              "CurrOdueNum": "0",
+              "CurrOdueAmt": "0"
+            }
+          ],
+          "Detail_ICR": [
+            {
+              "BeginDate": "2010年03月18日",
+              "CredAmt": "300,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2010年03月19日",
+              "CredAmt": "200,000",
+              "UsedAmt": "40,000",
+              "CurrOdueNum": "4",
+              "CurrOdueAmt": "60,000",
+              "AccState": "冻结"
+            },
+            {
+              "BeginDate": "2005年09月22日",
+              "CredAmt": "60,000",
+              "UsedAmt": "5,500",
+              "CurrOdueNum": "2",
+              "CurrOdueAmt": "5,500",
+              "AccState": "止付"
+            }
+          ],
+          "Detail_QCR": [
+            {
+              "BeginDate": "2005年12月20日",
+              "CredAmt": "500,000",
+              "AccState": "呆账"
+            },
+            {
+              "BeginDate": "2005年09月27日",
+              "CredAmt": "50,000",
+              "OdrawBal": "45,000",
+              "MaxOdrawBal": "50,000",
+              "AccState": "止付"
+            },
+            {
+              "BeginDate": "2005年03月22日",
+              "CredAmt": "60,000",
+              "OdrawBal": "15,000",
+              "MaxOdrawBal": "7,000",
+              "AccState": "冻结"
+            }
+          ],
+          "Detail_Guarantee": [
+            {
+              "LoanBeginDate": "2005.07.20",
+              "GuarAmt": "50,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "关注"
+            },
+            {
+              "LoanBeginDate": "2005.08.20",
+              "GuarAmt": "30,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "正常"
+            },
+            {
+              "LoanBeginDate": "2005.09.20",
+              "GuarAmt": "30,000",
+              "LoanCapiBal": "2,000",
+              "LoanClassResu": "损失"
+            }
+          ],
+          "Detail_HousingFund": [
+            {
+              "BeginDate": "2003.01",
+              "EndMonth": "2005.01",
+              "Status": "缴交"
+            },
+            {
+              "BeginDate": "2005.01",
+              "EndMonth": "2014.04",
+              "Status": "缴交"
+            }
+          ],
+          "Detail_PensionDeposit": [
+            {
+              "BeginDate": "2000.01.01",
+              "DataDate": "2006.04.01",
+              "Status": "暂停缴费(中断)"
+            },
+            {
+              "BeginDate": "2000.01.01",
+              "DataDate": "2006.04.01",
+              "Status": "暂停缴费(中断)"
+            }
+          ],
+          "Detail_PensionExtend": [
+            {
+              "ProvAddr": "天津河北区",
+              "CurrProvAmt": "3000.00",
+              "DataDate": "2018.04.05"
+            },
+            {
+              "ProvAddr": "北京海淀区",
+              "CurrProvAmt": "6000.00",
+              "DataDate": "2018.04.06"
+            }
+          ],
+          "Detail_AssetManage": [
+            {
+              "AMCName": "QA",
+              "DebtAmt": "11,000",
+              "Balance": "10,000",
+              "LastPayDate": "2012.01.01"
+            },
+            {
+              "AMCName": "QA",
+              "DebtAmt": "11,000",
+              "Balance": "7,000",
+              "LastPayDate": "2012.04.01"
+            }
+          ],
+          "Detail_Compensatory": [
+            {
+              "RepayOrgan": "ZE",
+              "Balance": "5,000",
+              "LastRepayDate": "2012.06.01"
+            },
+            {
+              "RepayOrgan": "CE",
+              "Balance": "8,000",
+              "LastRepayDate": "2015.06.01"
+            }
+          ],
+          "Detail_TelePay": [
+            {
+              "TeleProvider": "中国移动通信集团重庆有限公司",
+              "CurrOdueAmt": "0",
+              "Status": "正常"
+            },
+            {
+              "TeleProvider": "中国移动通信集团天津有限公司",
+              "CurrOdueAmt": "0",
+              "Status": "正常"
+            }
+          ],
+          "Detail_TaxDefault": [
+            {
+              "TaxOrgan": "天津河北区国税局",
+              "TaxtAmt": "0",
+              "DataDate": "2012.01.26"
+            },
+            {
+              "TaxOrgan": "天津南京区国税局",
+              "TaxtAmt": "1000",
+              "DataDate": "2014.01.26"
+            }
+          ],
+          "Detail_CivilJudgment": [
+            {
+              "CourtName": "立案法院名称",
+              "JudgeResu": "与该当事人相关的判决/调解结果",
+              "EffeDate": "--"
+            },
+            {
+              "CourtName": "立案法院名称",
+              "JudgeResu": "与该当事人相关的判决/调解结果",
+              "EffeDate": "--"
+            }
+          ],
+          "Detail_Penalty": [
+            {
+              "SancOrgan": "河北区国税局",
+              "SancAmt": "0",
+              "EffeDate": "2011.05.01",
+              "EndDate": "--"
+            },
+            {
+              "SancOrgan": "河北区国税局",
+              "SancAmt": "0",
+              "EffeDate": "2011.05.01",
+              "EndDate": "--"
+            }
+          ],
+          "Detail_Enforce": [
+            {
+              "CourtName": "天长市人民法院",
+              "Status": "--",
+              "EndDate": "--"
+            },
+            {
+              "CourtName": "天津市人民法院",
+              "Status": "--",
+              "EndDate": "--"
+            }
+          ],
+          "Detail_Qualification": [
+            {
+              "CertName": "优秀相声演员",
+              "CertLevel": "国家级机构颁发的执业资格证书",
+              "IssueOrgan": "中国曲艺协会",
+              "BeginDate": "2001.01",
+              "EndDate": "2010.12",
+              "RevokeDate": "000000"
+            },
+            {
+              "CertName": "优秀相声演员",
+              "CertLevel": "国家级机构颁发的执业资格证书",
+              "IssueOrgan": "中国曲艺协会",
+              "BeginDate": "2001.01",
+              "EndDate": "2010.12",
+              "RevokeDate": "000000"
+            }
+          ],
+          "Detail_VehicleTransMortgage": [
+            {
+              "VehiLice": "车户信息覆盖",
+              "EngineNo": "发动机号01",
+              "VehiBrand": "奥迪",
+              "VehiType": "半挂车",
+              "Status": "正常",
+              "DataDate": "2014.01.01"
+            },
+            {
+              "VehiLice": "车户信息覆盖",
+              "EngineNo": "发动机号01",
+              "VehiBrand": "奥迪",
+              "VehiType": "半挂车",
+              "Status": "正常",
+              "DataDate": "2014.01.01"
+            }
+          ],
+          "Detail_SpecialTrade": [
+            {
+              "TradeType": "其他",
+              "Amount": "32,000",
+              "DataDate": "2014.09.22"
+            },
+            {
+              "TradeType": "展期(延期)",
+              "Amount": "50,000",
+              "DataDate": "2014.12.22"
+            }
+          ],
+          "Detail_Declare": [
+            {
+              "Declaration": "该贷款还款期为2005年6月至2008年6月20日。本人因2003年非典，延迟毕业一年，曾提前向工行提出展期还款",
+              "AddDate": "2014.06.10"
+            },
+            {
+              "Declaration": "本信用报告中反映的2004年4月引起的信用卡恶意透支行为并非本人所为",
+              "AddDate": "2014.12.01"
+            },
+            {
+              "Declaration": "本报告不太准确哦",
+              "AddDate": "2014.12.01"
+            }
+          ],
+          "Detail_Objectionlabel": [
+            {
+              "ObjLabel": "此有争议111",
+              "AddDate": "2009.03.13"
+            },
+            {
+              "ObjLabel": "这个不客观",
+              "AddDate": "2014.03.13"
+            },
+            {
+              "ObjLabel": "这个数据有误",
+              "AddDate": "2014.03.13"
+            }
+          ]
+        }
+      }
+    ],
+    "CallResult": {
+      "finalscore": "692.0",
+      "creditlevel": "B",
+      "worstruleaction": "REMINDER_CONSIDER",
+      "finaldecision": "REFER_RECOMMENDATION"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table>
+    <indiinhabitancy>
+        <label>INDIINHABITANCY</label>
+        <fields>
+            <reportno>-9</reportno>
+            <custname>-9</custname>
+            <keyno>-9</keyno>
+            <inhabaddr>-9</inhabaddr>
+            <inhabpost>-9</inhabpost>
+            <inhabstatsign>-9</inhabstatsign>
+            <datadate>-9</datadate>
+        </fields>
+        <primaryKeys>reportno,keyno</primaryKeys>
+    </indiinhabitancy>
+</table>

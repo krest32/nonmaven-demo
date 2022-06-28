@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<common>
+		<logger>com.fico.common.log.Log4JLogger</logger>
+		<database>
+			<connector>com.fico.integration.LocalConnector</connector>
+			<driverClass>com.microsoft.sqlserver.jdbc.SQLServerDriver
+			</driverClass>
+			<url>jdbc:sqlserver://localhost:1433;sslProtocol=TLSv1.2;DatabaseName=db_user</url>
+			<user>root</user>
+			<password>123456</password> <!-- Blaze@123 -->
+		</database>
+		<message_listener>
+			<max_thread_num>5</max_thread_num>
+			<listen_interval>10000</listen_interval>
+		</message_listener>
+		<tasktrigger>
+		     <entdailytrigger>19:35</entdailytrigger>
+		     <indidailytrigger>14:16</indidailytrigger>
+		</tasktrigger>
+		<aes>D:\\Blaze_Inte_CBS\\BlazeEncrypt</aes>
+	</common>
+	<pboc>
+		<individual>
+			<webService>
+				<host>53.89.247.79</host>
+				<port>8091</port>
+			</webService>
+			<encoding>GBK</encoding>
+			<useHis>true</useHis>
+			<period>0</period>
+			<X0Period>13</X0Period>
+			<X1Period>13</X1Period>
+			<saveReportsAsFile>true</saveReportsAsFile>
+			<htmlDirectory>C:\\PBOC\\APPLICATIONDATE\\PROPOSAL NUMBER\\Individual\\</htmlDirectory>
+			<xmlDirectory>C:\\BlazeIntegrationFiles\\APPLICATIONDATE\\PBOC\\PROPOSAL NUMBER\\Individual\\</xmlDirectory>
+			<IndCntCount>1</IndCntCount>
+			<IndCntTimeout>1</IndCntTimeout>
+		</individual>
+		<enterprise>
+			<proxy>
+				<isuseproxy>true</isuseproxy>
+				<host>proxy.adcchina.corpintra.net</host>
+				<username>tangche</username>
+				<password>1qaz2wsx#EDC</password>
+				<region>APAC</region>
+				<port>3128</port>
+			</proxy>
+			<url>http://53.87.92.28/shwebroot</url>
+			<organCode>1000G051101</organCode>
+			<userName>mbafc_blazeadvisor</userName>
+			<password>C632B2833269FDD1C3F68A3A25BEEAAC</password>
+			<encoding>GBK</encoding>
+			<useHis>true</useHis>
+			<period>0</period>
+			<saveReportsAsFile>true</saveReportsAsFile>
+			<directory>C:\\PBOC\\APPLICATIONDATE\\PROPOSAL NUMBER\\Enterprise\\</directory>
+			<pictureDir>C:\\PBOC\\picture\\</pictureDir>
+			<fieldMaps>
+				<main>fieldMaps/comp</main>
+			</fieldMaps>
+			<tempNum>100006</tempNum>
+			<queryyear>7</queryyear>
+		</enterprise>
+	</pboc>
+	<messagequeue>
+		<inputqueue>
+			<hostname>53.89.247.79</hostname>
+			<port>1414</port>
+			<channel>DC.SVRCONN</channel>
+			<ccsid>1381</ccsid>
+			<queueManagerName>INPUTBOMQUEUEMANAGER</queueManagerName>
+			<queueName>INPUTBOMQUEUE</queueName>
+		</inputqueue>
+		<outputqueue>
+			<hostname>53.89.247.79</hostname>
+			<port>1415</port>
+			<channel>DC.SVRCONN</channel>
+			<ccsid>1381</ccsid>
+			<queueManagerName>OUTPUTQUEUEMANAGER</queueManagerName>
+			<queueName>OUTBOMQUEUE</queueName>
+		</outputqueue>
+	</messagequeue>
+	<cap>
+		<save_data_as_file>true</save_data_as_file>
+		<directory>C:\\DEV\\Unit\\CAP</directory>
+		<mbafc>
+			<wsdlLocation>http://53.89.247.79:88/PSResponse.svc?wsdl</wsdlLocation>
+			<namespaceURI>http://tempuri.org/</namespaceURI>
+			<localPart>PSResponse</localPart>
+		</mbafc>
+		<mblc>
+			<wsdlLocation>http://53.89.247.79:88/PSResponse.svc?wsdl</wsdlLocation>
+			<namespaceURI>http://tempuri.org/</namespaceURI>
+			<localPart>PSResponse</localPart>
+		</mblc>
+	</cap>
+	<!--FICO Score add fuml  2017-12-13-->
+	<mobileverifi>
+		<clientID>MBAFC</clientID>
+		<password>TEST</password>
+		<url>https://esbint.cn.svc.corpintra.net/esb00/BigDataScore/GetScore</url>
+		<serviceCode>901</serviceCode>
+		<timeout>500</timeout>
+		<period>30</period>
+	</mobileverifi>
+	<ficoscore>
+		<switch>on</switch>
+		<clientID>MBAFC</clientID>
+		<password>TEST</password>
+		<url>https://esbint.cn.svc.corpintra.net/esb00/BigDataScore/GetScore</url>
+		<serviceCode>101</serviceCode>
+		<timeout>500</timeout>
+		<period>30</period>
+	</ficoscore>
+	<!--FICO Score fuml  2017-12-13-->
+	<blaze>
+		<saveDataAsFile>true</saveDataAsFile>
+		<saveIntFileFlag>true</saveIntFileFlag>
+		<saveGenFileFlag>true</saveGenFileFlag>
+		<directory>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/APPLICATIONDATE/BlazeBOM/</directory>
+		<serverDirectory>D:/Blaze_Inte_CBS/blazeServer/Benz_ser.server</serverDirectory>
+		<serverName>Rule Service Definition</serverName>
+		<entryPointId>entryPoint</entryPointId>
+	</blaze>
+	<integration>
+	   <toCAPCallResultPath>
+	      <callresultPath>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/OutputCAPResult/</callresultPath>
+	   </toCAPCallResultPath>
+	   <toErrorCAPBOMPath>
+	      <CAPPath>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/ErrorCAP/</CAPPath>
+	   </toErrorCAPBOMPath>
+	</integration>
+	
+	<cbs>
+		<execute-mode>debug</execute-mode>
+		<debug-xml-file>D:/Blaze_Inte_CBS/xmlFile/</debug-xml-file>
+		<debug-json-file>D:/Blaze_Inte_CBS/jsonFile/CBS_To_Blaze_json.txt</debug-json-file>
+		<cbsswitch>on</cbsswitch>
+		<sysCode>Blaze_CBS</sysCode>
+		<url>https://cbs-mbafc-uat.cn.isn.corpintra.net/creditcheck_uat/rest/blaze/aipredict</url>
+		<timeout>60000</timeout>
+		<api-key>C79490BFCABFBD68E89D16CA18B5F9104E93B22976B4C0E992CAD4E810AF76FDE4CDEFE35971D85366B27B0E8D738123</api-key> <!-- 7199a614-5e6d-48e1-bad4-65af8c87c929 -->
+		<data-map-file>E:/project/demo-java/src/main/resources/config/Blaze2CBS.xml</data-map-file>
+		<save_input_as_file>true</save_input_as_file> <!-- #Application_Number#_#CallType#_#CallRound#_Input.txt -->
+		<input_directory>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/#Date#/CBS/</input_directory>
+		<save_output_as_file>true</save_output_as_file> <!-- #Application_Number#_#CallType#_#CallRound#_Output.txt -->
+		<output_directory>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/#Date#/CBS/</output_directory>
+		<save_blaze_cbs_input_as_file>true</save_blaze_cbs_input_as_file>
+		<blaze_cbs_input_directory>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/#Date#/CBS/</blaze_cbs_input_directory>
+		<save_blaze_cbs_output_as_file>true</save_blaze_cbs_output_as_file>
+		<blaze_cbs_output_directory>D:/Blaze_Inte_CBS/BlazeIntegrationFiles/#Date#/CBS/</blaze_cbs_output_directory>
+	</cbs>
+</system>

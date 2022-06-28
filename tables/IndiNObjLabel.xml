@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table>
+    <indinobjlabel>
+        <label>IndiNObjLabel</label>
+        <fields>
+            <reportno>-9</reportno>
+            <custname>-9</custname>
+            <keyno>-9</keyno>
+            <objlabel>-9</objlabel>
+            <adddate>-9</adddate>
+            <keyid>4</keyid>
+        </fields>
+        <primaryKeys>keyid</primaryKeys>
+    </indinobjlabel>
+</table>

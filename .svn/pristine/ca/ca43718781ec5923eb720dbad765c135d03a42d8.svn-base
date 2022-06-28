@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table>
+    <cbscalllog>
+        <label>CBSCallLog</label>
+        <fields>
+            <appid>-9</appid>
+            <calltype>-9</calltype>
+            <callround>4</callround>
+            <responsecode>-9</responsecode>
+        </fields>
+        <primaryKeys>appid,calltype,callround</primaryKeys>
+    </cbscalllog>
+</table>

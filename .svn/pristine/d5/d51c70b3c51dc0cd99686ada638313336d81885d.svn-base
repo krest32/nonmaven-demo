@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+	<blazeController>
+		<message code="BIC_Cri_01" name="Critical" des="Error load CAP XML data." />
+		<message code="BIC_Cri_02" name="Critical" 
+			des="Error get database connection to Blaze Integration Database." />
+		<message code="BIC_Maj_03" name="Major" des="Error save PBOC mapping." />
+		<message code="BIC_Cri_04" name="Critical" des="Time out response to CAP." />
+	</blazeController>
+	<individual>
+		<message code="IPI_Maj_01" name="Major" des="Error connect to JinDian" />
+		<message code="IPI_Min_02" name="Minor" des="JinDian responses with 2-fail." />
+		<message code="IPI_Min_03" name="Minor" des="JinDian responses with 3-Request record error." />
+		<message code="IPI_Min_04" name="Minor" des="JinDian responses with 5-Inquiry fail." />
+		<message code="IPI_Min_05" name="Minor" des="JinDian responses with 6-Parse fail." />
+		<message code="IPI_Min_06" name="Minor" des="JinDian responses with 7-System exception." />
+		<message code="IPI_Nor_07" name="Normal" des="JinDian responses with X-No PBOC Record." />
+		<message code="IPI_Min_08" name="Minor" des="Error parse JinDian XML." />
+		<message code="IPI_Cri_09" name="Critical" des="Parameter validation error." />
+	</individual>
+	<enterprise>
+		<message code="EPI_Maj_01" name="Major" des="Error connect to PBOC System" />
+		<message code="EPI_Nor_02" name="Normal" des="No PBOC Record." />
+		<message code="EPI_Min_03" name="Minor" des="Error parse PBOC HTML files." />
+		<message code="EPI_Maj_04" name="Major" des="Loancard password error" />
+	</enterprise>
+	<cap>
+		<message code="CIA_Cri_01" name="Critical" 
+			des="Can not find [Application.application_number] or [Application.calltype] in CAP XML data." />
+		<message code="CIA_Cri_02" name="Critical" des="Error parse CAP XML data." />
+	</cap>
+	<blaze>
+		<message code="BDP_Maj_01" name="Major" des="Error query PBOC Data." />
+		<message code="BDP_Cri_02" name="Critical" des="Error call Blaze Advisor." />
+	</blaze>
+	<blazeRule>
+		<message code="BRE_Maj_01" name="Major" des="Blaze internal exception." />
+	</blazeRule>
+	<cbs>
+		<message code="CBS_Nor_01" name="Normal" des="CBS response with 1-success." />
+		<message code="CBS_Maj_01" name="Major" des="Blaze internal exception." />
+		<message code="CBS_Maj_02" name="Major" des="Blaze internal exception." />
+		<message code="CBS_Maj_02" name="Major" des="Blaze internal exception." />
+		
+		<!-- Normal Message -->
+		<message code="CBS_Nor_100" name="Normal" des="Call CBS Integration APP success." />
+		<message code="CBS_Nor_300" name="Normal" des="Call CBS Switch off." />
+		
+		<!-- Minor Message -->
+		<message code="CBS_Min_230" name="Minor" des="call CBS system return empty String."/>
+		
+		<message code="CBS_Min_308" name="Minor" des="save CBS input parameter file failure." />
+		<message code="CBS_Min_310" name="Minor" des="CBS Integration App output File Config Parameter lose." />
+		
+		
+
+		<!-- Major Message -->
+		<message code="CBS_Maj_281" name="Major" des="CBS WebContainer connection failure." />
+		<message code="CBS_Maj_284" name="Major" des="CBS response data handle Exception." />
+		<message code="CBS_Maj_299" name="Major" des="call CBS system Unknow Exception."/>
+		
+		<message code="CBS_Maj_305" name="Major" des="CBS Integration CAP input parameter Exception." />
+		<message code="CBS_Maj_306" name="Major" des="CBS Integration extract BOM data map field file load Exception."/>
+		<message code="CBS_Maj_307" name="Major" des="CBS Integration extract BOM data Excetpion." />
+		
+		<message code="CBS_Maj_310" name="Major" des="Blaze Integration App Config Parameter[%s] lose Exception." />
+		
+		<message code="CBS_Maj_330" name="Major" des="connect CBS url timeout Exception." />
+		<message code="CBS_Maj_331" name="Major" des="call CBS interface Parameter lose Exception." />
+		<message code="CBS_Maj_370" name="Major" des="CBS Integration DB Exception." />
+		
+		<message code="CBS_Maj_399" name="Major" des="CBS Integration Unknow Exception." />
+		
+		<!-- 
+		<message code="" name="" des="" />
+		 -->
+	</cbs>
+</messages>

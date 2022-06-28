@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table>
+    <indinoccupation>
+        <label>IndiNOccupation</label>
+        <fields>
+            <reportno>-9</reportno>
+            <custname>-9</custname>
+            <keyno>-9</keyno>
+            <workunit>-9</workunit>
+            <corpaddr>-9</corpaddr>
+            <occupation>-9</occupation>
+            <occuindustry>-9</occuindustry>
+            <position>-9</position>
+            <jobtitle>-9</jobtitle>
+            <beginworkyear>-9</beginworkyear>
+            <datadate>-9</datadate>
+        </fields>
+        <primaryKeys>reportno,keyno</primaryKeys>
+    </indinoccupation>
+</table>
